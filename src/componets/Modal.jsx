@@ -19,7 +19,7 @@ export function Modal({ isVisible, onClose, exam }) {
           <span>tiempo de proceso: {exam.time} día(s)</span>
           <span className=" font-bold">
             observaciones: el tiempo de proceso corre a partir de llegada la
-            muetra al laboratorio, ciertos analitos requieren dilucion pudiendo
+            muestra al laboratorio, ciertos analitos requieren dilucion pudiendo
             aumentar el tiempo de proceso{" "}
           </span>
         </div>
