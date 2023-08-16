@@ -15,6 +15,7 @@ export function Modal({ isVisible, onClose, exam }) {
           <span>condiciones pre-analitica: {exam.preanalitic}</span>
           <span>tipo de tubo(color)/recipiente: {exam.tube}</span>
           <span>tipo de muestra: {exam.sample}</span>
+          <span>metodologia: {exam.method}</span>
           <span>precio: {exam.price}.00 soles</span>
           <span>tiempo de proceso: {exam.time} día(s)</span>
           <span className=" font-bold">

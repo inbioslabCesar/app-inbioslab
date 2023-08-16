@@ -1,5 +1,5 @@
 import { useState } from "react";
-import style from "./ExamRow.module.css";
+import { AiOutlineExperiment } from "react-icons/ai";
 import { Modal } from "./Modal";
 
 const ExamRow = ({ exam }) => {
@@ -8,7 +8,7 @@ const ExamRow = ({ exam }) => {
     <div >
       <div className="flex justify-between items-center border p-3 rounded-lg uppercase font-bold mb-1">
         <div className="">
-          <span>{exam.id}</span>
+          <span>00{exam.id}</span>
         </div>
         <div className="w-1/2 text-sm">
           <span>{exam.exam}</span>
@@ -20,7 +20,7 @@ const ExamRow = ({ exam }) => {
           <button
             className="uppercase px-2 py-2 bg-green-500 rounded-lg text-sm"
             onClick={() => setShowModal(true)}>
-            pre-analitica
+            <AiOutlineExperiment/>
           </button>
         </div>
       </div>
