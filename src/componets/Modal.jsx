@@ -9,7 +9,7 @@ export function Modal({ isVisible, onClose, exam }) {
           x
         </button>
               <div className="bg-zinc-600 text-white p-2 rounded flex flex-col text-sm uppercase text-left">
-                  <h1 className=" font-bold text-red-500">pre analítica:</h1>
+                  <h1 className=" font-bold text-lime-500">pre-analítica:</h1>
           <span>codigo: 000{exam.id}</span>
           <span>nombre de prueba: {exam.exam}</span>
           <span>condiciones pre-analitica: {exam.preanalitic}</span>
@@ -20,7 +20,7 @@ export function Modal({ isVisible, onClose, exam }) {
           <span className=" font-bold">
             observaciones: el tiempo de proceso corre a partir de llegada la
             muestra al laboratorio, ciertos analitos requieren dilucion pudiendo
-            aumentar el tiempo de proceso{" "}
+            aumentar el tiempo de proceso.
           </span>
         </div>
       </div>
