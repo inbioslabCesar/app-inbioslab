@@ -16,7 +16,7 @@ const ExamList = ({ initialExams}) => {
   return (
     <div className="w-full max-w-lg m-auto p-4">
       <h1 className="lista text-2xl font-bold mb-1">
-        Listado de análisis precio convenio
+        Tarifario convenio INBIOSLAB
       </h1>
       <ExamsListFilters search={search} {...setFilterFuntions} />
 
