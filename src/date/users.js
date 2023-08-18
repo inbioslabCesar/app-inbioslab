@@ -111,12 +111,142 @@ export const exams = [
   },
   {
     id: 12,
-    exam: "CA 15-3(mama)",
+    exam: "CA 15-3(mama)-lima",
     sample: "suero",
     method: "quimioluminiscencia",
     price: 170,
     tube: 'tapa rojo ó amarillo',
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 7
+  },
+  {
+    id: 13,
+    exam: "glucosa",
+    sample: "suero",
+    method: "bioquimica automatizada",
+    price: 5,
+    tube: 'tapa rojo ó amarillo',
+    preanalitic: "se recomienda ayuno de 8 horas",
+    time: 1
+  },
+  {
+    id: 14,
+    exam: "colesterol total",
+    sample: "suero",
+    method: "bioquimica automatizada",
+    price: 5,
+    tube: 'tapa rojo ó amarillo',
+    preanalitic: "se recomienda ayuno de 8 horas",
+    time: 1
+  },
+  {
+    id: 15,
+    exam: "trigliceridos",
+    sample: "suero",
+    method: "bioquimica automatizada",
+    price: 7,
+    tube: 'tapa rojo ó amarillo',
+    preanalitic: "se recomienda ayuno de 8 horas",
+    time: 1
+  },
+  {
+    id: 16,
+    exam: "hemograma automatizada",
+    sample: "sangre total",
+    method: "citometría de flujo",
+    price: 15,
+    tube: 'tapa lila',
+    preanalitic: "se recomienda ayuno de 8 horas",
+    time: 1
+  },
+  {
+    id: 17,
+    exam: "hemoglobina",
+    sample: "sangre total",
+    method: "manual",
+    price: 5,
+    tube: 'tapa lila',
+    preanalitic: "no requiere ayuno",
+    time: 1
+  },
+  {
+    id: 18,
+    exam: "ex. completo de orina",
+    sample: "orina ocasional",
+    method: "manual",
+    price: 5,
+    tube: 'frasco tapa rojo no esteril',
+    preanalitic: "se recomienda primera orina de la mañana chorro intermedio ",
+    time: 1
+  },
+  {
+    id: 19,
+    exam: "hemoglobina glicosilada",
+    sample: "sangre total",
+    method: "inmunoflorescencia",
+    price: 40,
+    tube: 'tapa lila',
+    preanalitic: "se recomienda ayuno de 8 horas",
+    time: 1
+  },
+  {
+    id: 20,
+    exam: "tsh",
+    sample: "suero",
+    method: "quimioluminiscencia",
+    price: 40,
+    tube: 'tapa rojo ó amarillo',
+    preanalitic: "se recomienda ayuno de 8 horas",
+    time: 1
+  },
+  {
+    id: 21,
+    exam: "t4 libre",
+    sample: "suero",
+    method: "quimioluminiscencia",
+    price: 40,
+    tube: 'tapa rojo ó amarillo',
+    preanalitic: "se recomienda ayuno de 8 horas",
+    time: 1
+  },
+  {
+    id: 22,
+    exam: "t3 libre",
+    sample: "suero",
+    method: "quimioluminiscencia",
+    price: 40,
+    tube: 'tapa rojo ó amarillo',
+    preanalitic: "se recomienda ayuno de 8 horas",
+    time: 1
+  },
+  {
+    id: 23,
+    exam: "perfil lipidico",
+    sample: "suero",
+    method: "bioquimica automatizada",
+    price: 25,
+    tube: 'tapa rojo ó amarillo',
+    preanalitic: "se recomienda ayuno de 8 horas",
+    time: 1
+  },
+  {
+    id: 24,
+    exam: "perfil hepatico",
+    sample: "suero",
+    method: "bioquimica automatizada",
+    price: 30,
+    tube: 'tapa rojo ó amarillo',
+    preanalitic: "se recomienda ayuno de 8 horas",
+    time: 1
+  },
+  {
+    id: 25,
+    exam: "perfil renal simple",
+    sample: "suero",
+    method: "bioquimica automatizada",
+    price: 17,
+    tube: 'tapa rojo ó amarillo',
+    preanalitic: "se recomienda ayuno de 8 horas",
+    time: 1
   },
 ];
