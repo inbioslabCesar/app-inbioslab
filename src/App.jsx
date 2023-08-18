@@ -5,7 +5,7 @@ import { exams } from "./date/users";
 function App() {
   return (
     <>
-      <ExamList exams={exams} />
+      <ExamList initialExams={exams} />
     </>
   );
 }

@@ -1,44 +1,38 @@
+import ExamsListRows from "./ExamsListRows";
+import ExamsListFilters from "./ExamsListFilters";
+import { filterExamsByName, paginateExams } from "../lib/exams/filterExams";
+import { useFilters } from "../lib/hooks/useFilters";
 import { useState } from "react";
-import ExamRow from "./ExamRow";
+import ExamsListPaginate from "./ExamsListPaginate";
 
-const ExamList = ({ exams }) => {
-  const [search, setSearch] = useState("");
+const ExamList = ({ initialExams}) => {   
+  const { search, ...setFilterFuntions } = useFilters();
+  const [page, setPage] = useState(1)
+  const [itemsPerPage, setItemsPerPage] = useState(2)
 
-  const examsFiltered = filterExamsByName(exams, search)
-  const renderExam = renderExams(examsFiltered)
+  const { exams } = getExams(initialExams, search, page, itemsPerPage);
+
 
   return (
     <div className="w-full max-w-lg m-auto p-4">
-      <h1 className="lista text-2xl font-bold mb-1">Listado de análisis</h1>
+      <h1 className="lista text-2xl font-bold mb-1">
+        Listado de análisis precio convenio
+      </h1>
+      <ExamsListFilters search={search} {...setFilterFuntions} />
 
-      <input
-        type="text"
-        name="search"
-        value={search}
-        placeholder="Buscar examenes"
-        onChange={(ev) => setSearch(ev.target.value)}
-        className="h-10 p-2 rounded-lg shadow-lg border-none mb-5 mt-2 outline-none hover:shadow-2xl placeholder:text-gray-300"
-      />
-
-      {renderExam}
+      <ExamsListRows exams={exams} />
+      <ExamsListPaginate page={page}  itemsPerPage={ itemsPerPage } setPage={setPage }  setItemsPerPage={setItemsPerPage}/> 
     </div>
   );
 };
-const filterExamsByName = (exams,search ) => {
-  const normalizedSearch = search.toLowerCase();
 
-  const examsFiltered = search
-    ? exams.filter((ex) => ex.exam.toLowerCase().startsWith(normalizedSearch))
-    : exams;
-  return examsFiltered
+
+
+const getExams = (initialExams, search, page, itemsPerPage) => {
+  let examsFiltered = filterExamsByName(initialExams, search);
+  examsFiltered = paginateExams(examsFiltered, page, itemsPerPage);
+  return { exams: examsFiltered }
+  
 }
-const renderExams = (exams) => { 
-  const renderExam =
-    exams.length > 0 ? (
-      exams.map((exam) => <ExamRow key={exam.id} exam={exam} />)
-    ) : (
-      <p>No hay examenes aun</p>
-    );
-  return renderExam
-};
+
 export default ExamList;

@@ -18,7 +18,7 @@ const ExamRow = ({ exam }) => {
         </div>
         <div className="">
           <button
-            className="uppercase px-2 py-2 bg-green-500 rounded-lg text-sm"
+            className="uppercase px-2 py-2 bg-green-500 rounded-full text-sm"
             onClick={() => setShowModal(true)}>
             <AiOutlineExperiment/>
           </button>

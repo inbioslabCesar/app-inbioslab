@@ -54,7 +54,7 @@ export const exams = [
     exam: "ANTI DNA-DS(LIMA)",
     sample: "suero",
     method: "IFI - Inmunofluorescencia Indirecta",
-    price: 10,
+    price: 140,
     tube: 'tapa rojo ó amarillo',
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 7
@@ -111,7 +111,7 @@ export const exams = [
   },
   {
     id: 12,
-    exam: "CA 15-3(ovario)",
+    exam: "CA 15-3(mama)",
     sample: "suero",
     method: "quimioluminiscencia",
     price: 170,
