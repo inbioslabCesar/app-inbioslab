@@ -1,12 +1,14 @@
+import { FaTimes } from "react-icons/fa";
+
 export function Modal({ isVisible, onClose, exam }) {
   if (!isVisible) return null;
   return (
     <div className="fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center">
       <div className="w-[600px] flex flex-col">
         <button
-          className=" text-white text-xl place-self-end"
+          className=" text-black text-xl place-self-end"
           onClick={() => onClose()}>
-          x
+          <FaTimes />
         </button>
               <div className="bg-zinc-600 text-white p-2 rounded flex flex-col text-sm uppercase text-left">
                   <h1 className=" font-bold text-lime-500">pre-analítica:</h1>

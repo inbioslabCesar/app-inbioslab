@@ -1,12 +1,12 @@
 import { useState } from "react";
-import { AiOutlineExperiment } from "react-icons/ai";
+import { FaExclamationCircle } from "react-icons/fa";
 import { Modal } from "./Modal";
 
 const ExamRow = ({ exam }) => {
   const [showModal, setShowModal] = useState(false);
   return (
     <div >
-      <div className="flex justify-between items-center border p-3 rounded-lg uppercase font-bold mb-1">
+      <div className="flex justify-between items-center border p-3 rounded-lg uppercase font-medium mb-1">
         <div className="">
           <span>00{exam.id}</span>
         </div>
@@ -18,9 +18,9 @@ const ExamRow = ({ exam }) => {
         </div>
         <div className="">
           <button
-            className="uppercase px-2 py-2 bg-green-500 rounded-full text-sm"
+            className="uppercase px-2 py-2  rounded-full text-sm"
             onClick={() => setShowModal(true)}>
-            <AiOutlineExperiment/>
+            <FaExclamationCircle className=""/>
           </button>
         </div>
       </div>
