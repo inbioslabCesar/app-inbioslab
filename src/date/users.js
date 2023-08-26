@@ -171,7 +171,7 @@ export const exams = [
   },
   {
     id: 18,
-    exam: "ex. completo de orina",
+    exam: "ex. completo de orina(eco)",
     sample: "orina ocasional",
     method: "manual",
     price: 5,
@@ -261,9 +261,9 @@ export const exams = [
   },
   {
     id: 27,
-    exam: "tsh",
+    exam: "CREATINFOSFOQUINASA (CPK TOTAL)",
     sample: "suero",
-    method: "quimioluminiscencia",
+    method: "cinetico",
     price: 35,
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
@@ -654,7 +654,7 @@ export const exams = [
   },
   {
     id: 63,
-    exam: "vih 4ta generacion",
+    exam: "vih 4ta generacion(elisa)",
     sample: "suero",
     method: "elisa",
     price: 45,
