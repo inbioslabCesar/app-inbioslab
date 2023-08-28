@@ -933,7 +933,7 @@ export const exams = [
     time: 1,
   },
   {
-    id: 92,
+    id: 93,
     exam: "herpes 1/2 (igg-igm)",
     sample: "suero",
     method: "inmunocromatografia",
