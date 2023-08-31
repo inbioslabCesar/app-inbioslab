@@ -424,7 +424,7 @@ export const exams = [
     exam: "grupo sanguineo",
     sample: "sangre total",
     method: "manual",
-    price: 5,
+    price: 7,
     tube: "tapa lila",
     preanalitic: "no requiere ayuno previo",
     time: 1,
