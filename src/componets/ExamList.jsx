@@ -8,7 +8,7 @@ import ExamsListPaginate from "./ExamsListPaginate";
 const ExamList = ({ initialExams}) => {   
   const { search, ...setFilterFuntions } = useFilters();
   const [page, setPage] = useState(1)
-  const [itemsPerPage, setItemsPerPage] = useState(2)
+  const [itemsPerPage, setItemsPerPage] = useState(5)
 
   const { exams } = getExams(initialExams, search, page, itemsPerPage);
 

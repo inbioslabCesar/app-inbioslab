@@ -904,7 +904,7 @@ export const exams = [
   },
   {
     id: 90,
-    exam: "hepatitis b (hbsag)",
+    exam: "hepatitis b-antigeno de superficie (hbsag)",
     sample: "suero",
     method: "inmunocromatografia",
     price: 20,
@@ -1220,6 +1220,16 @@ export const exams = [
     price: 55,
     tube: "tubo rojo /amarillo",
     preanalitic: "no requiere ayuno previo",
+    time: 1,
+  },
+  {
+    id: 122,
+    exam: "tiempo de coagulacion y tiempo de sangria",
+    sample: "sangre total",
+    method: "manual",
+    price: 5,
+    tube: "sin aditivo",
+    preanalitic: "no requiere ayuna.",
     time: 1,
   },
 ];
