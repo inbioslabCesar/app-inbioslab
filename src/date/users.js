@@ -1264,7 +1264,7 @@ export const exams = [
   },
   {
     id: 126,
-    exam: "proteina totales y fraccionadas",
+    exam: "proteinas totales y fraccionadas",
     sample: "suero",
     method: "colorimetrico",
     price: 15,
