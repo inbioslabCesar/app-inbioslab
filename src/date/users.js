@@ -1409,5 +1409,15 @@ export const exams = [
     time: 1,
     quantity: 1
   },
-  
+  {
+    id: 128,
+    exam: "velocidad de sedimentacion glovular(vsg)",
+    sample: "sangre total",
+    method: "manual",
+    price: 5,
+    tube: "tubo lila",
+    preanalitic: "No necesita ayuno previo.",
+    time: 1,
+    quantity: 1
+  },
 ];
