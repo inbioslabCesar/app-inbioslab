@@ -22,8 +22,8 @@ const Header = ({
   }
   return (
     <header>
-      <img src="./public/logo.png" alt="INBIOSLAB" className="w-14 h-15"/>
-      <h1 className="text-lime-500 font-bold text-3xl">Tienda Online INBIOSLAB</h1>
+      <img src="logo.png" alt="INBIOSLAB" className="w-14 h-15"/>
+      <h1 className="text-lime-500 font-bold text-3xl">Cotizador Online INBIOSLAB</h1>
 
       <div className="container-icon ">
         <div className="container-cart-icon" onClick={() => setActive(!active)}>
@@ -53,8 +53,8 @@ const Header = ({
                 {allProducts.map((exam) => (
                   <div className="cart-product" key={exam.id}>
                     <div className="info-cart-product">
-                      <span className="cantidad-producto-carrito">
-                        {exam.quantity} -
+                      <span className="cantidad-producto-carrito bg-black rounded-full text-white w-6 h-8 text-center">
+                        {exam.quantity} 
                       </span>
                       <p className="titulo-producto-carrito text-xs">
                         {exam.exam}

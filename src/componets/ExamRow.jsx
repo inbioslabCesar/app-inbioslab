@@ -30,11 +30,8 @@ const ExamRow = ({
   return (
     <div className="container">
       <div className="flex justify-between items-center border p-3 rounded-lg uppercase font-medium mb-1">
-        <div className="w-10">
-          <span>00{exam.id}</span>
-        </div>
         <button className="w-5 flex justify-center" onClick={() => onAddProducts(exam)}>
-          <BsFillCartPlusFill className=""/>
+          <BsFillCartPlusFill className="text-4xl"/>
         </button>
         <div className="w-1/2 text-sm font-normal">
           <span>{exam.exam}</span>
@@ -46,7 +43,7 @@ const ExamRow = ({
           <button
             className="uppercase px-2 py-2  rounded-full text-sm"
             onClick={() => setShowModal(true)}>
-            <FaExclamationCircle className="" />
+            <FaExclamationCircle className="text-xl" />
           </button>
         </div>
       </div>

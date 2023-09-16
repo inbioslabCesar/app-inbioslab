@@ -1,7 +1,7 @@
 export const exams = [
   {
     id: 1,
-    exam: "A.N.C.A ANTI-NEUTROFILOS(ANCA)-LIMA",
+    exam: "A.N.C.A ANTI-NEUTROFILOS",
     sample: "suero",
     method: "IFI - Inmunofluorescencia Indirecta",
     price: 150,
