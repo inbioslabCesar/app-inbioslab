@@ -919,7 +919,7 @@ export const exams = [
     exam: "helicobacter pylori igg",
     sample: "suero",
     method: "inmunocromatografia",
-    price: 30,
+    price: 25,
     tube: "tapa rojo/amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
