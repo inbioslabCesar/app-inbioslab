@@ -8,6 +8,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 7,
+    quantity: 1
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 1,
+    quantity: 1
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ export const exams = [
     tube: "jeringa especial con heparina",
     preanalitic: "no requiere ayuno previo",
     time: 1,
+    quantity: 1
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 hras",
     time: 1,
+    quantity: 1
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 6,
@@ -58,6 +63,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 7,
+    quantity: 1
   },
   {
     id: 7,
@@ -68,6 +74,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 7,
+    quantity: 1
   },
   {
     id: 8,
@@ -78,6 +85,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 7,
+    quantity: 1
   },
   {
     id: 9,
@@ -88,6 +96,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 7,
+    quantity: 1
   },
   {
     id: 10,
@@ -98,6 +107,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 11,
@@ -108,6 +118,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 12,
@@ -118,6 +129,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 7,
+    quantity: 1
   },
   {
     id: 13,
@@ -128,6 +140,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 14,
@@ -138,6 +151,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 15,
@@ -148,6 +162,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 16,
@@ -158,6 +173,7 @@ export const exams = [
     tube: "tapa lila",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 17,
@@ -168,6 +184,7 @@ export const exams = [
     tube: "tapa lila",
     preanalitic: "no requiere ayuno",
     time: 1,
+    quantity: 1
   },
   {
     id: 18,
@@ -178,6 +195,7 @@ export const exams = [
     tube: "frasco tapa rojo no esteril",
     preanalitic: "se recomienda primera orina de la mañana chorro intermedio ",
     time: 1,
+    quantity: 1
   },
   {
     id: 19,
@@ -188,6 +206,7 @@ export const exams = [
     tube: "tapa lila",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 20,
@@ -198,6 +217,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 21,
@@ -208,6 +228,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 22,
@@ -218,6 +239,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 23,
@@ -228,6 +250,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 24,
@@ -238,6 +261,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 25,
@@ -248,6 +272,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 26,
@@ -258,6 +283,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 1,
+    quantity: 1
   },
   {
     id: 27,
@@ -268,6 +294,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 1,
+    quantity: 1
   },
   {
     id: 28,
@@ -278,6 +305,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 1,
+    quantity: 1
   },
   {
     id: 29,
@@ -288,6 +316,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 1,
+    quantity: 1
   },
   {
     id: 30,
@@ -298,6 +327,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 1,
+    quantity: 1
   },
   {
     id: 31,
@@ -308,6 +338,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 1,
+    quantity: 1
   },
   {
     id: 32,
@@ -318,6 +349,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 1,
+    quantity: 1
   },
   {
     id: 33,
@@ -328,6 +360,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 1,
+    quantity: 1
   },
   {
     id: 34,
@@ -338,6 +371,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 1,
+    quantity: 1
   },
   {
     id: 35,
@@ -348,6 +382,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 1,
+    quantity: 1
   },
   {
     id: 36,
@@ -358,6 +393,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 1,
+    quantity: 1
   },
   {
     id: 37,
@@ -368,6 +404,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 38,
@@ -378,6 +415,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 39,
@@ -388,6 +426,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 40,
@@ -398,6 +437,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 41,
@@ -408,6 +448,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 42,
@@ -418,6 +459,7 @@ export const exams = [
     tube: "tapa celeste",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 43,
@@ -428,6 +470,7 @@ export const exams = [
     tube: "tapa lila",
     preanalitic: "no requiere ayuno previo",
     time: 1,
+    quantity: 1
   },
   {
     id: 44,
@@ -439,6 +482,7 @@ export const exams = [
     preanalitic:
       "MUESTRA FRESCA, LA QUE CONTENGA MOCO Y/O SANGRE. CANTIDAD: = NUEZ. INFANTES: EL PAÑAL COLOCAR AL REVES, PARA EVITAR QUE EL GEL DEL PAÑAL ABSORBA LOS LIQUIDOS O QUE LAS HECES SE IMPREGNEN",
     time: 1,
+    quantity: 1
   },
   {
     id: 45,
@@ -450,6 +494,7 @@ export const exams = [
     preanalitic:
       "MUESTRA FRESCA, LA QUE CONTENGA MOCO Y/O SANGRE. CANTIDAD: = NUEZ. INFANTES: EL PAÑAL COLOCAR AL REVES, PARA EVITAR QUE EL GEL DEL PAÑAL ABSORBA LOS LIQUIDOS O QUE LAS HECES SE IMPREGNEN",
     time: 1,
+    quantity: 1
   },
   {
     id: 46,
@@ -461,6 +506,7 @@ export const exams = [
     preanalitic:
       "MUESTRA FRESCA, LA QUE CONTENGA MOCO Y/O SANGRE. CANTIDAD: = NUEZ. INFANTES: EL PAÑAL COLOCAR AL REVES, PARA EVITAR QUE EL GEL DEL PAÑAL ABSORBA LOS LIQUIDOS O QUE LAS HECES SE IMPREGNEN",
     time: 1,
+    quantity: 1
   },
   {
     id: 47,
@@ -472,6 +518,7 @@ export const exams = [
     preanalitic:
       "MUESTRA FRESCA, LA QUE CONTENGA MOCO Y/O SANGRE. CANTIDAD: = NUEZ. INFANTES: EL PAÑAL COLOCAR AL REVES, PARA EVITAR QUE EL GEL DEL PAÑAL ABSORBA LOS LIQUIDOS O QUE LAS HECES SE IMPREGNEN",
     time: 1,
+    quantity: 1
   },
   {
     id: 48,
@@ -483,6 +530,7 @@ export const exams = [
     preanalitic:
       "MUESTRA FRESCA, LA QUE CONTENGA MOCO Y/O SANGRE. CANTIDAD: = NUEZ. INFANTES: EL PAÑAL COLOCAR AL REVES, PARA EVITAR QUE EL GEL DEL PAÑAL ABSORBA LOS LIQUIDOS O QUE LAS HECES SE IMPREGNEN",
     time: 1,
+    quantity: 1
   },
   {
     id: 49,
@@ -494,6 +542,7 @@ export const exams = [
     preanalitic:
       "MUESTRA FRESCA, LA QUE CONTENGA MOCO Y/O SANGRE. CANTIDAD: = NUEZ. INFANTES: EL PAÑAL COLOCAR AL REVES, PARA EVITAR QUE EL GEL DEL PAÑAL ABSORBA LOS LIQUIDOS O QUE LAS HECES SE IMPREGNEN",
     time: 1,
+    quantity: 1
   },
   {
     id: 50,
@@ -505,6 +554,7 @@ export const exams = [
     preanalitic:
       "MUESTRA FRESCA, LA QUE CONTENGA MOCO Y/O SANGRE. CANTIDAD: = NUEZ. INFANTES: EL PAÑAL COLOCAR AL REVES, PARA EVITAR QUE EL GEL DEL PAÑAL ABSORBA LOS LIQUIDOS O QUE LAS HECES SE IMPREGNEN",
     time: 1,
+    quantity: 1
   },
   {
     id: 51,
@@ -516,6 +566,7 @@ export const exams = [
     preanalitic:
       "MUESTRAS TOMADAS:BASAL 30, 60, 120, 180 MINUTOS. SALVO OTRA INDICACION DEL MEDICO. ADULTOS: 75 GR. glucosa anhidra Y  EMBARAZADAS SÓLO ENTRE 24 A 28 SEMANAS. REVISAR ORDEN MEDICA: 100 GR glucosa anhidra .. DISOLVER EN 250 - 300 ML DE AGUA",
     time: 1,
+    quantity: 1
   },
   {
     id: 52,
@@ -526,6 +577,7 @@ export const exams = [
     tube: "tapa lila",
     preanalitic: "no requiere ayuno previo",
     time: 1,
+    quantity: 1
   },
   {
     id: 53,
@@ -537,6 +589,7 @@ export const exams = [
     preanalitic:
       "TODA REFERENCIA: DEBE REALIZAR EXTENDIDO DE SANGRE SOBRE LÁMINA PORTAOBJETOS. ADEMÁS ENVIAR TUBO TAPA LILA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 54,
@@ -548,6 +601,7 @@ export const exams = [
     preanalitic:
       "TODA REFERENCIA: DEBE REALIZAR EXTENDIDO DE SANGRE SOBRE LÁMINA PORTAOBJETOS. ADEMÁS ENVIAR TUBO TAPA LILA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 55,
@@ -559,6 +613,7 @@ export const exams = [
     preanalitic:
       "SE REQUIERE DE 3 A 5 DÍAS DE ABSTINENCIA. SE RECEPCIONAN LUNES A SÁBADO DE 7 AM A 11 AM. EN CASO DE FERIADO NO RECIBIR UN DÍA ANTES. INDICAR FECHA DE VASECTOMÍA SI CORRESPONDE. NO APLICA LOS SÁBADOS, DOMINGOS, FERIADOS NI DÍAS PREVIOS A FERIADOS.",
     time: 2,
+    quantity: 1
   },
   {
     id: 56,
@@ -569,6 +624,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 1,
+    quantity: 1
   },
   {
     id: 57,
@@ -579,6 +635,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 1,
+    quantity: 1
   },
   {
     id: 58,
@@ -589,6 +646,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 1,
+    quantity: 1
   },
   {
     id: 59,
@@ -599,6 +657,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 1,
+    quantity: 1
   },
   {
     id: 60,
@@ -609,6 +668,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 1,
+    quantity: 1
   },
   {
     id: 61,
@@ -620,6 +680,7 @@ export const exams = [
     preanalitic:
       "MUESTRA TOMADA ENTRE 8:00 Y 9:00 AM. SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 62,
@@ -631,6 +692,7 @@ export const exams = [
     preanalitic:
       "MUESTRA TOMADA ENTRE 8:00 Y 9:00 AM. SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 63,
@@ -641,6 +703,7 @@ export const exams = [
     tube: "tapa lila",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 64,
@@ -651,6 +714,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 65,
@@ -661,6 +725,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 66,
@@ -671,6 +736,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 67,
@@ -681,6 +747,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 68,
@@ -691,6 +758,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 69,
@@ -701,6 +769,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 70,
@@ -711,6 +780,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 71,
@@ -721,6 +791,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 72,
@@ -731,6 +802,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 73,
@@ -741,6 +813,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 74,
@@ -751,6 +824,7 @@ export const exams = [
     tube: "tapa lila",
     preanalitic: "no necesita ayuno previo.",
     time: 1,
+    quantity: 1
   },
   {
     id: 75,
@@ -761,6 +835,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 76,
@@ -771,6 +846,7 @@ export const exams = [
     tube: "tapa celeste",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: "5 a 7",
+    quantity: 1
   },
   {
     id: 77,
@@ -781,6 +857,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: "5 a 7",
+    quantity: 1 ,
   },
   {
     id: 78,
@@ -791,6 +868,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: "5 a 7",
+    quantity: 1 ,
   },
   {
     id: 79,
@@ -801,6 +879,7 @@ export const exams = [
     tube: "tapa celeste",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 80,
@@ -811,6 +890,7 @@ export const exams = [
     tube: "tapa celeste",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 81,
@@ -821,6 +901,7 @@ export const exams = [
     tube: "tapa celeste",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 82,
@@ -831,6 +912,7 @@ export const exams = [
     tube: "frasco tapa rosca",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 83,
@@ -841,6 +923,7 @@ export const exams = [
     tube: "tapa rojo/amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 84,
@@ -851,6 +934,7 @@ export const exams = [
     tube: "tapa lila",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 85,
@@ -861,6 +945,7 @@ export const exams = [
     tube: "tapa lila",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 86,
@@ -871,6 +956,7 @@ export const exams = [
     tube: "lamina",
     preanalitic: "LIMPIEZA DE LA ZONA ANAL ANTES DE ACOSTARSE. HORA DE TOMA DE MUESTRA : 5:00 A 6:00 AM MATERIALES: CINTA ADHESIVA TRANSPARENTE (1 A 2 X 10 A 12 CM) + LÁMINA PORTAOJETOS (LABORATORIO) PROCEDIMIENTO: COLOCAR AL PCTE. BOCA ABAJO EN LA POSICIÓN QUE PERMITA QUE LAS NALGAS SE SEPAREN PARA COLOCAR LA CINTA EN EL ANO ( AL CENTRO Y ALREDEDOR Ó PERI-ANAL) Y LUEGO COLOCARLO EN LA LAMINA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 87,
@@ -881,6 +967,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: "5 a 7",
+    quantity: 1 
   },
   {
     id: 88,
@@ -891,6 +978,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "NO REQUIERE AYUNO ANTES DE LA PRUEBA.",
     time: "5 a 7",
+    quantity: 1 
   },
   {
     id: 89,
@@ -901,6 +989,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 90,
@@ -911,6 +1000,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 91,
@@ -921,6 +1011,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 92,
@@ -931,6 +1022,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 93,
@@ -941,6 +1033,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 94,
@@ -951,6 +1044,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 95,
@@ -961,6 +1055,7 @@ export const exams = [
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 96,
@@ -971,6 +1066,7 @@ export const exams = [
     tube: "galorena",
     preanalitic: "NO CONSUMIR ALCOHOL DURANTE TODO EL PROCESO DE RECOLECCIÓN. RECOLECCIÓN: ELIMINAR LA 1RA ORINA DE LA MAÑANA, RECOLECTAR DESDE LA 2DA EN ADELANTE HASTA EL DÍA SIGUIENTE DONDE SE RECOLECTA LA 1RA ORINA. NO ELIMINAR NI BOTAR NINGUNA MUESTRA DE ORINA. ANOTAR FECHA, INICIO Y TERMINO DE LA RECOLECCIÓN.",
     time: 1,
+    quantity: 1
   },
   {
     id: 97,
@@ -981,6 +1077,7 @@ export const exams = [
     tube: "galorena/tubo rojo o amarillo",
     preanalitic: "NO CONSUMIR ALCOHOL DURANTE TODO EL PROCESO DE RECOLECCIÓN. RECOLECCIÓN: ELIMINAR LA 1RA ORINA DE LA MAÑANA, RECOLECTAR DESDE LA 2DA EN ADELANTE HASTA EL DÍA SIGUIENTE DONDE SE RECOLECTA LA 1RA ORINA. NO ELIMINAR NI BOTAR NINGUNA MUESTRA DE ORINA. ANOTAR FECHA, INICIO Y TERMINO DE LA RECOLECCIÓN.",
     time: 1,
+    quantity: 1
   },
   {
     id: 98,
@@ -991,6 +1088,7 @@ export const exams = [
     tube: "tubo rojo o amarillo",
     preanalitic: "no requiere ayuno previo",
     time: 1,
+    quantity: 1
   },
   {
     id: 99,
@@ -1001,6 +1099,7 @@ export const exams = [
     tube: "tubo rojo o amarillo",
     preanalitic: "no requiere ayuno previo",
     time: 1,
+    quantity: 1
   },
   {
     id: 100,
@@ -1011,6 +1110,7 @@ export const exams = [
     tube: "tubo rojo o amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 101,
@@ -1021,6 +1121,7 @@ export const exams = [
     tube: "tubo rojo o amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 102,
@@ -1031,6 +1132,7 @@ export const exams = [
     tube: "tubo rojo o amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 103,
@@ -1041,6 +1143,7 @@ export const exams = [
     tube: "tubo rojo o amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 104,
@@ -1051,6 +1154,7 @@ export const exams = [
     tube: "frasco esteril",
     preanalitic: "COLECTAR LA MUESTRA EN FRASCO ESTÉRIL. NO ANTIBIOTICOS 03 DIAS PREVIOS AL EXAMEN. HIGIENE PREVIA DE LOS GENITALES. RECOLECTAR 1RA ORINA DE LA MAÑANA (ELIMINANDO EL 1ER CHORRO) Y REMITIR LA MUESTRA LO ANTES POSIBLE AL LABORATORIO (O MANTENER EN REFRIGERACIÓN 2 a 8°C HASTA SU ENVÍO)",
     time: 4,
+    quantity: 1
   },
   {
     id: 105,
@@ -1061,6 +1165,7 @@ export const exams = [
     tube: "tubo rojo o amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 106,
@@ -1071,6 +1176,7 @@ export const exams = [
     tube: "tubo rojo o amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 107,
@@ -1081,6 +1187,7 @@ export const exams = [
     tube: "tubo rojo o amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 108,
@@ -1091,6 +1198,7 @@ export const exams = [
     tube: "tubo rojo o amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 109,
@@ -1101,6 +1209,7 @@ export const exams = [
     tube: "tubo lila",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 110,
@@ -1111,6 +1220,7 @@ export const exams = [
     tube: "tubo rojo / amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 111,
@@ -1121,6 +1231,7 @@ export const exams = [
     tube: "tubo rojo / amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 112,
@@ -1131,6 +1242,7 @@ export const exams = [
     tube: "tubo rojo / amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 113,
@@ -1141,6 +1253,7 @@ export const exams = [
     tube: "jeringa con heparina",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
+    quantity: 1
   },
   {
     id: 114,
@@ -1151,6 +1264,7 @@ export const exams = [
     tube: "FRASCO ORINA",
     preanalitic: "NO REQUIERE AYUNO Y/O PREPARACIÓN PREVIA. NOTA: ES RESPONSABILIDAD DE LA REFERENCIA; IDENTIFICAR Y CONSTATAR QUE LA ORINA PERTENECE AL PACIENTE. NO HABER INGERIDO MATE DE COCA 24 HORAS ANTES DEL EXAMEN. NO CONSUMIR MEDICACIÓN DEL TIPO DE ANTINFLAMATORIOS, POR LO MENOS 48 HORAS ANTES DEL EXAMEN.",
     time: 1,
+    quantity: 1
   },
   {
     id: 115,
@@ -1161,6 +1275,7 @@ export const exams = [
     tube: "FRASCO ORINA",
     preanalitic: "NO REQUIERE AYUNO Y/O PREPARACIÓN PREVIA. EL PACIENTE DEBERA PRESENTARSE CON DNI EN EL CASO DE MENORES DE EDAD CON LA PERSONA RESPONSABLE CON DNI Y FIRMAR FORMATO DE CONSENTIMIENTO PARA LA PRUEBA Y COLOCAR SU HUELLA DIGITAL, MUESTRA > 20 ML. ORINA REFRIGERADO. NOTA: ES RESPONSABILIDAD DE LA REFERENCIA; IDENTIFICAR Y CONSTATAR QUE LA ORINA PERTENECE AL PACIENTE.",
     time: 1,
+    quantity: 1
   },
   {
     id: 116,
@@ -1171,6 +1286,7 @@ export const exams = [
     tube: "FRASCO CON TAPA ROSCA",
     preanalitic: "MUESTRA FRESCA, LA QUE CONTENGA MOCO Y/O SANGRE. INFANTES: EL PAÑAL COLOCAR AL REVES, PARA EVITAR QUE EL GEL DEL PAÑAL ABSORBA LOS LIQUIDOS O QUE LAS HECES SE IMPREGNEN. REFRIGERAR, EN EL CASO DE NO ENVIAR INMEDIATAMENTE.",
     time: 1,
+    quantity: 1
   },
   {
     id: 117,
@@ -1181,6 +1297,7 @@ export const exams = [
     tube: "FRASCO CON TAPA ROSCA",
     preanalitic: "NO REQUIERE DE PREPARACION PREVIA SEGÚN EL TIPO DE MUESTRA. SE SUGIERE OBTENER LA MUESTRA DE ESPUTO MUY TEMPRANO AL LEVANTARSE, ANTES DE CEPILLARSE LOS DIENTES, ANTES DE ENJUAGARSE LA BOCA Y ANTES DE INGERIR ALIMENTOS. SE DEBE RECOLECTAR LA EXPECTORACION BRONQUIAL,SIN SALIVA.",
     time: 1,
+    quantity: 1
   },
   {
     id: 118,
@@ -1191,6 +1308,7 @@ export const exams = [
     tube: "MEDIO DE TRANSPORTE",
     preanalitic: "NO ANTIBIÓICOS, NI OVULOS 3 DIAS ANTES DEL EXÁMEN Y SIN ASEO PREVIO, MEDIO DE TRANSPORTE + 02 LAMINAS (FROTIS) INCLUYE : EXAMEN DIRECTO + ANTIBIOGRAMA",
     time: 4,
+    quantity: 1
   },
   {
     id: 119,
@@ -1201,6 +1319,7 @@ export const exams = [
     tube: "MEDIO DE TRANSPORTE",
     preanalitic: "NO ANTIBIÓTICOS 3 DIAS ANTES DE LA PRUEBA, NI APLICACIÓN DE ANTISEPTICAS. HERIDAS: SI ES NECESARIO LIMPIAR CON SUERO FISIOLOG. Y/O TOMAR LA MUESTRA DE LA PARTE INTERNA DE LA HERIDA. (MEDIO DE TRANSPORTE + 02 LAMINAS (FROTIS) ) ASPIRADOS: ENVIAR LA MUESTRA EN EL MISMO FRASCO O JERINGA QUE SE TOMÓ. NOTA: ES IMPORTANTE QUE SE INDIQUE LA UBICACIÓN Y TIPO DE MUESTRA QUE SE TOME EN LA ORDEN O TICKET. TIEMPO DE RESPUESTA NO SE INCLUYE DOMINGOS NI FERIADOS.",
     time: 4,
+    quantity: 1
   },
   {
     id: 120,
@@ -1211,6 +1330,7 @@ export const exams = [
     tube: "frasco hemocultivo",
     preanalitic: "DE PREFERENCIA NO ANTIBIOTICOS, 03 DIAS PREVIOS AL EXAMEN. REVISAR SOLICITUD MÉDICA Y PRECISAR LUGAR DE PUNCIÓN EN EL FRASCO DE HEMOCULTIVO. INCLUYE REMOVEDOR DE ATB, MEDIO ADULTOS: 5-10 ML DE SANGRE TOTAL (VENOSA), MEDIO PEDIATRICO: INFANTES: 1-2 ML Y NIÑOS: 3-5 ML DE SANGRE TOTAL (VENOSA).",
     time: 7,
+    quantity: 1
   },
   {
     id: 121,
@@ -1221,6 +1341,7 @@ export const exams = [
     tube: "tubo rojo /amarillo",
     preanalitic: "no requiere ayuno previo",
     time: 1,
+    quantity: 1
   },
   {
     id: 122,
@@ -1231,6 +1352,7 @@ export const exams = [
     tube: "sin aditivo",
     preanalitic: "no requiere ayuna.",
     time: 1,
+    quantity: 1
   },
   {
     id: 123,
@@ -1241,6 +1363,7 @@ export const exams = [
     tube: "tubo rojo / amarillo",
     preanalitic: "Se recomienda ayuno de 8 horas.",
     time: 1,
+    quantity: 1
   },
   {
     id: 124,
@@ -1251,6 +1374,7 @@ export const exams = [
     tube: "tubo rojo / amarillo",
     preanalitic: "Se recomienda ayuno de 8 horas.",
     time: 1,
+    quantity: 1
   },
   {
     id: 125,
@@ -1261,6 +1385,7 @@ export const exams = [
     tube: "tubo rojo / amarillo",
     preanalitic: "Se recomienda ayuno de 8 horas.",
     time: 1,
+    quantity: 1
   },
   {
     id: 126,
@@ -1271,6 +1396,18 @@ export const exams = [
     tube: "tubo rojo / amarillo",
     preanalitic: "Se recomienda ayuno de 8 horas.",
     time: 1,
+    quantity: 1
+  },
+  {
+    id: 127,
+    exam: "ca 19-9",
+    sample: "suero",
+    method: "quimioluminiscencia",
+    price: 48,
+    tube: "tubo rojo / amarillo",
+    preanalitic: "Se recomienda ayuno de 8 horas.",
+    time: 1,
+    quantity: 1
   },
   
 ];

@@ -5,7 +5,7 @@ import { useFilters } from "../lib/hooks/useFilters";
 import { useState } from "react";
 import ExamsListPaginate from "./ExamsListPaginate";
 
-const ExamList = ({ initialExams}) => {   
+const ExamList = ({ initialExams, allProducts, setAllProducts, countProducts, setCountProducts, total, setTotal}) => {   
   const { search, ...setFilterFuntions } = useFilters();
   const [page, setPage] = useState(1)
   const [itemsPerPage, setItemsPerPage] = useState(5)
@@ -16,11 +16,15 @@ const ExamList = ({ initialExams}) => {
   return (
     <div className="w-full max-w-lg m-auto p-4">
       <h1 className="lista text-2xl font-bold mb-1">
-        Tarifario convenio INBIOSLAB
+        Cotiza con Nosotros
       </h1>
       <ExamsListFilters search={search} {...setFilterFuntions} />
 
-      <ExamsListRows exams={exams} />
+      <ExamsListRows exams={exams} allProducts={allProducts}
+       setAllProducts={setAllProducts} total={total}
+       setTotal={setTotal}
+       countProducts={countProducts}
+       setCountProducts={setCountProducts}/>
       <ExamsListPaginate page={page}  itemsPerPage={ itemsPerPage } setPage={setPage }  setItemsPerPage={setItemsPerPage}/> 
     </div>
   );
