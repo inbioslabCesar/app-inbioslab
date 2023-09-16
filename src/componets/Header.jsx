@@ -56,11 +56,11 @@ const Header = ({
                       <span className="cantidad-producto-carrito bg-black rounded-full text-white w-6 h-8 text-center">
                         {exam.quantity} 
                       </span>
-                      <p className="titulo-producto-carrito text-xs">
+                      <p className="titulo-producto-carrito uppercase">
                         {exam.exam}
                       </p>
                       <span className="precio-producto-carrito">
-                        S/ {exam.price}
+                        S/ {exam.price}.00
                       </span>
                     </div>
                     <svg
@@ -83,7 +83,7 @@ const Header = ({
 
               <div className="cart-total">
                 <h3>Total:</h3>
-                <span className="total-pagar">S/ {total}</span>
+                <span className="total-pagar">S/ {total}.00</span>
               </div>
               <button className="btn-clear-all" onClick={onCleanCart}>Vaciar Carrito</button>
             </>
