@@ -1420,4 +1420,37 @@ export const exams = [
     time: 1,
     quantity: 1
   },
+  {
+    id: 129,
+    exam: "gota gruesa",
+    sample: "sangre total",
+    method: "manual/coloracion giensa",
+    price: 15,
+    tube: "tubo lila más lamina",
+    preanalitic: "No necesita ayuno previo.",
+    time: 1,
+    quantity: 1
+  },
+  {
+    id: 130,
+    exam: "prueba cruzada",
+    sample: "suero",
+    method: "manual",
+    price: 25,
+    tube: "tubo rojo/amarillo",
+    preanalitic: "No necesita ayuno previo.",
+    time: 1,
+    quantity: 1
+  },
+  {
+    id: 131,
+    exam: "secrecion directa mas gram",
+    sample: "secrecion",
+    method: "microscopia manual",
+    price: 15,
+    tube: "tubo con solucion salina más lamina",
+    preanalitic: "No aseo precio.",
+    time: 1,
+    quantity: 1
+  },
 ];
