@@ -1453,4 +1453,15 @@ export const exams = [
     time: 1,
     quantity: 1
   },
+  {
+    id: 132,
+    exam: "dengue igg-igm-ns1",
+    sample: "suero",
+    method: "inmunocromatografia",
+    price: 40,
+    tube: "tubo rojo ó amarillo",
+    preanalitic: "Se recomienda ayuno de 8 horas.",
+    time: 1,
+    quantity: 1
+  },
 ];
