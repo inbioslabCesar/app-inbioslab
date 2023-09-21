@@ -1449,7 +1449,7 @@ export const exams = [
     method: "microscopia manual",
     price: 15,
     tube: "tubo con solucion salina más lamina",
-    preanalitic: "No aseo precio.",
+    preanalitic: "No aseo previo.",
     time: 1,
     quantity: 1
   },
@@ -1460,8 +1460,41 @@ export const exams = [
     method: "inmunocromatografia",
     price: 40,
     tube: "tubo rojo ó amarillo",
+    preanalitic: "No requiere ayuno previo.",
+    time: 1,
+    quantity: 1
+  },
+  {
+    id: 133,
+    exam: "deshidrogenasa lactica-dhl",
+    sample: "suero",
+    method: "cinetico",
+    price: 20,
+    tube: "tubo rojo ó amarillo",
     preanalitic: "Se recomienda ayuno de 8 horas.",
     time: 1,
+    quantity: 1
+  },
+  {
+    id: 134,
+    exam: "examen directo-koh(hongos)",
+    sample: "raspado de piel",
+    method: "microscopia/manual",
+    price: 12,
+    tube: "placa petri pequeña",
+    preanalitic: "SUSPENDER ANTIMICÓTICOS (ORALES, CREMAS, SOLUCIONES)5 DÍAS PREVIOS AL EXAMEN, NO REALIZAR BAÑO PREVIO O ASEO DE LA ZONA AFECTADA.",
+    time: 1,
+    quantity: 1
+  },
+  {
+    id: 135,
+    exam: "cultivo de hongos",
+    sample: "una, piel, cuero cabelludo, orina",
+    method: "cultivo/microscopia/manual",
+    price: 30,
+    tube: "placa petri pequeña",
+    preanalitic: "NO ANTIMICÓTICOS (ORALES, CREMAS O SOLUCIONES) POR 03 DIAS ANTES DE LA PRUEBA, NO ASEO DE LA ZONA AFECTADA. EN CULTIVOS DE UÑAS, DEJAR QUE ESTAS CREZCAN PARA LA OBTENCIÓN DE UNA MEJOR MUESTRA. EN EL CASO DE AUSENCIA O ESCASAS ESCAMAS (PIEL), ENVIAR EL BISTURÍ CON EL CUAL SE HIZO EL RASPADO. INDICAR LA ZONA AFECTADA Y EL TIPO DE MUESTRA EN LA ORDEN O TICKET.",
+    time: 30,
     quantity: 1
   },
 ];
