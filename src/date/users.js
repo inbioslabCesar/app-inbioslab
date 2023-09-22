@@ -400,7 +400,7 @@ export const exams = [
     exam: "troponina i",
     sample: "suero",
     method: "inmunoflorescencia",
-    price: 50,
+    price: 40,
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
@@ -1498,11 +1498,22 @@ export const exams = [
     quantity: 1
   },
   {
-    id: 71,
+    id: 136,
     exam: "herpes 2 (igg)",
     sample: "suero",
     method: "quimiolumiscencia",
     price: 30,
+    tube: "tapa rojo ó amarillo",
+    preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
+    time: 1,
+    quantity: 1
+  },
+  {
+    id: 137,
+    exam: "troponina t",
+    sample: "suero",
+    method: "quimiolumiscencia",
+    price: 40,
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
