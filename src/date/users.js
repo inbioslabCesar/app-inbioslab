@@ -48,7 +48,7 @@ export const exams = [
     exam: "amilasa serica",
     sample: "suero",
     method: "cinetico",
-    price: 20,
+    price: 12,
     tube: "tapa rojo ó amarillo",
     preanalitic: "se recomienda ayuno de 8 horas",
     time: 1,
