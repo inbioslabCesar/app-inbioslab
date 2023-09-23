@@ -279,7 +279,7 @@ export const exams = [
     exam: "perfil tiroideo(tsh-t4 libre-t3 libre)",
     sample: "suero",
     method: "quimioluminiscencia",
-    price: 84,
+    price: 90,
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 1,
