@@ -1576,7 +1576,7 @@ export const exams = [
   },
   {
     id: 143,
-    exam: "portasio serico (k)",
+    exam: "potasio serico (k)",
     sample: "suero",
     method: "colorimetrico",
     price: 20,
