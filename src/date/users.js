@@ -1585,4 +1585,15 @@ export const exams = [
     time: 1,
     quantity: 1
   },
+  {
+    id: 144,
+    exam: "perfil reumatoideo(fr-aso-pcr)",
+    sample: "suero",
+    method: "inmunoturbidimetria",
+    price: 30,
+    tube: "tubo rojo / amarillo",
+    preanalitic: "Se recomienda ayuno de 8 horas.",
+    time: 1,
+    quantity: 1
+  },
 ];
