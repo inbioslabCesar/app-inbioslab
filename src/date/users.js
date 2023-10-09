@@ -1596,4 +1596,15 @@ export const exams = [
     time: 1,
     quantity: 1
   },
+  {
+    id: 145,
+    exam: "coprocultivo",
+    sample: "heces",
+    method: "cultivo",
+    price: 25,
+    tube: "frasco tapa rosca boca ancha",
+    preanalitic: "COLECTAR LA MUESTRA EN FRASCO boca ancha tapa rosca. NO ANTIBIOTICOS 03 DIAS PREVIOS AL EXAMEN. REMITIR LA MUESTRA LO ANTES POSIBLE AL LABORATORIO (O MANTENER EN REFRIGERACIÓN 2 a 8°C HASTA SU ENVÍO).",
+    time: 1,
+    quantity: 1
+  },
 ];
