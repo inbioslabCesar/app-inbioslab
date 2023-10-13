@@ -1598,12 +1598,56 @@ export const exams = [
   },
   {
     id: 145,
-    exam: "coprocultivo",
+    exam: "coprocultivo mas antibiograma",
     sample: "heces",
     method: "cultivo",
     price: 25,
     tube: "frasco tapa rosca boca ancha",
     preanalitic: "COLECTAR LA MUESTRA EN FRASCO boca ancha tapa rosca. NO ANTIBIOTICOS 03 DIAS PREVIOS AL EXAMEN. REMITIR LA MUESTRA LO ANTES POSIBLE AL LABORATORIO (O MANTENER EN REFRIGERACIÓN 2 a 8°C HASTA SU ENVÍO).",
+    time: 1,
+    quantity: 1
+  },
+  {
+    id: 146,
+    exam: "PRO-BNP (PEPTIDO NATRIUREICO) ECLIA",
+    sample: "suero",
+    method: "INMUNOQUIMIOLUMINISCENCIA",
+    price: 230,
+    tube: "tapa dorada",
+    preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
+    time: '5 a 7',
+    quantity: 1
+  },
+  {
+    id: 147,
+    exam: "HELICOBACTER PYLORI, TEST DE ALIENTO - CARBONO 13 (TEST UREASA)",
+    sample: "aliento",
+    method: "Espectometría infrarrojo (C13)",
+    price: 300,
+    tube: "bolsa metalica",
+    preanalitic: "NO REQUIERE CITA PREVIA. RECOMENDABLE EN AYUNAS SIN CEPILLARSE LOS DIENTES EL DÍA DE LA PRUEBA, CASO ESPECIAL: NO INGERIR ALIMENTOS MÍNIMO 3 HORAS ANTES. MEDICINAS: NO ANTIBIÓTICOS, BISMUTOL O PEPTOBISMOL POR 4 SEMANAS. NO ANTIÁCIDOS POR 2 SEMANAS (OMEPRAZOL O DERIVADOS).",
+    time: '5 a 7',
+    quantity: 1
+  },
+  {
+    id: 148,
+    exam: "PAPANICOLAOU",
+    sample: "varios",
+    method: "MICROSCOPIA / MANUAL",
+    price: 15,
+    tube: "lamina",
+    preanalitic: "NO REQUIERE AYUNO Y/O PREPARACIÓN PREVIA. ABSTINENCIA SEXUAL 3 DIAS ANTES, NO OVULOS NI CREMAS VAGINALES. NO ESTAR EN EL PERIODO MENSTRUAL. ENVIAR 2 LÁMINAS FIJADAS, ROTULADAS Y PROTEGIDAS",
+    time: 'TIEMPO DE RESPUESTA: 6 DÍAS HABILES (NO CONTAR SAB, DOM NI FERIADOS). EL TIEMPO DE PROCESO PUEDE AUMENTAR EN MUESTRAS QUE REQUIERAN DE UN ANÁLISIS EXHAUSTIVO SEGÚN COMPLEJIDAD DEL CASO',
+    quantity: 1
+  },
+  {
+    id: 149,
+    exam: "test de ada",
+    sample: "liquido varios/suero",
+    method: "colorimetrico",
+    price: 50,
+    tube: "envase esteril/tubo rojo",
+    preanalitic: "no requiere ayuno",
     time: 1,
     quantity: 1
   },
