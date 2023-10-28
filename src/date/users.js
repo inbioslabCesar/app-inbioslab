@@ -1651,4 +1651,92 @@ export const exams = [
     time: 1,
     quantity: 1
   },
+  {
+    id: 150,
+    exam: "helicobacter pylori igg",
+    sample: "suero",
+    method: "quimioluminiscencia ",
+    price: 38,
+    tube: "tubo rojo",
+    preanalitic: "se recomienda ayuno de 8 horas.",
+    time: 1,
+    quantity: 1
+  },
+  {
+    id: 151,
+    exam: "helicobacter pylori igm",
+    sample: "suero",
+    method: "quimioluminiscencia ",
+    price: 38,
+    tube: "tubo rojo",
+    preanalitic: "se recomienda ayuno de 8 horas.",
+    time: 1,
+    quantity: 1
+  },
+  {
+    id: 152,
+    exam: "citomegalovirus igm",
+    sample: "suero",
+    method: "quimioluminiscencia ",
+    price: 38,
+    tube: "tubo rojo",
+    preanalitic: "se recomienda ayuno de 8 horas.",
+    time: 1,
+    quantity: 1
+  },
+  {
+    id: 153,
+    exam: "citomegalovirus igg",
+    sample: "suero",
+    method: "quimioluminiscencia ",
+    price: 38,
+    tube: "tubo rojo",
+    preanalitic: "se recomienda ayuno de 8 horas.",
+    time: 1,
+    quantity: 1
+  },
+  {
+    id: 154,
+    exam: "rubeola igg",
+    sample: "suero",
+    method: "quimioluminiscencia ",
+    price: 38,
+    tube: "tubo rojo",
+    preanalitic: "se recomienda ayuno de 8 horas.",
+    time: 1,
+    quantity: 1
+  },
+  {
+    id: 155,
+    exam: "rubeola igm",
+    sample: "suero",
+    method: "quimioluminiscencia ",
+    price: 38,
+    tube: "tubo rojo",
+    preanalitic: "se recomienda ayuno de 8 horas.",
+    time: 1,
+    quantity: 1
+  },
+  {
+    id: 156,
+    exam: "toxoplasma igg",
+    sample: "suero",
+    method: "quimioluminiscencia ",
+    price: 38,
+    tube: "tubo rojo",
+    preanalitic: "se recomienda ayuno de 8 horas.",
+    time: 1,
+    quantity: 1
+  },
+  {
+    id: 157,
+    exam: "toxoplasma igm",
+    sample: "suero",
+    method: "quimioluminiscencia ",
+    price: 38,
+    tube: "tubo rojo",
+    preanalitic: "se recomienda ayuno de 8 horas.",
+    time: 1,
+    quantity: 1
+  },
 ];
