@@ -1004,10 +1004,10 @@ export const exams = [
   },
   {
     id: 91,
-    exam: "hepatitis a (igg)",
+    exam: "hepatitis a (igm)",
     sample: "suero",
     method: "inmunocromatografia",
-    price: 20,
+    price: 25,
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
