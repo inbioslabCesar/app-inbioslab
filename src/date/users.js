@@ -1740,3 +1740,4 @@ export const exams = [
     quantity: 1
   },
 ];
+
