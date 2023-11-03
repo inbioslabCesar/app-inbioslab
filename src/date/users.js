@@ -608,7 +608,7 @@ export const exams = [
     exam: "espermatograma",
     sample: "semen",
     method: "microscopia/manual",
-    price: 35,
+    price: 40,
     tube: "frasco tapa verde esteril",
     preanalitic:
       "SE REQUIERE DE 3 A 5 DÍAS DE ABSTINENCIA. SE RECEPCIONAN LUNES A SÁBADO DE 7 AM A 11 AM. EN CASO DE FERIADO NO RECIBIR UN DÍA ANTES. INDICAR FECHA DE VASECTOMÍA SI CORRESPONDE. NO APLICA LOS SÁBADOS, DOMINGOS, FERIADOS NI DÍAS PREVIOS A FERIADOS.",
@@ -1293,7 +1293,7 @@ export const exams = [
     exam: "bk esputo directo",
     sample: "varios",
     method: "microscopia manual",
-    price: 10,
+    price: 15,
     tube: "FRASCO CON TAPA ROSCA",
     preanalitic: "NO REQUIERE DE PREPARACION PREVIA SEGÚN EL TIPO DE MUESTRA. SE SUGIERE OBTENER LA MUESTRA DE ESPUTO MUY TEMPRANO AL LEVANTARSE, ANTES DE CEPILLARSE LOS DIENTES, ANTES DE ENJUAGARSE LA BOCA Y ANTES DE INGERIR ALIMENTOS. SE DEBE RECOLECTAR LA EXPECTORACION BRONQUIAL,SIN SALIVA.",
     time: 1,
@@ -1740,3 +1740,4 @@ export const exams = [
     quantity: 1
   },
 ];
+ESPERMATOGRAMA
