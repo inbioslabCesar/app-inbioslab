@@ -699,7 +699,7 @@ export const exams = [
     exam: "coombs directo",
     sample: "sangre total",
     method: "HEMAGLUTINACION / MANUAL",
-    price: 20,
+    price: 25,
     tube: "tapa lila",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
@@ -787,7 +787,7 @@ export const exams = [
     exam: "herpes 2 (igm)",
     sample: "suero",
     method: "quimiolumiscencia",
-    price: 30,
+    price: 35,
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
@@ -1026,10 +1026,10 @@ export const exams = [
   },
   {
     id: 93,
-    exam: "herpes 1/2 (igg-igm)",
+    exam: "herpes 2 (igg-igm) ",
     sample: "suero",
-    method: "inmunocromatografia",
-    price: 50,
+    method: "QUIMIOLUMINISCENCIA",
+    price: 70,
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
@@ -1502,7 +1502,7 @@ export const exams = [
     exam: "herpes 2 (igg)",
     sample: "suero",
     method: "quimiolumiscencia",
-    price: 30,
+    price: 35,
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
@@ -1740,4 +1740,3 @@ export const exams = [
     quantity: 1
   },
 ];
-ESPERMATOGRAMA
