@@ -1739,5 +1739,27 @@ export const exams = [
     time: 1,
     quantity: 1
   },
+  {
+    id: 158,
+    exam: "creatinina en orina de 24 h",
+    sample: "orina de 24 h",
+    method: "cinetico",
+    price: 10,
+    tube: "frasco tapa rosca",
+    preanalitic: "NO CONSUMIR ALCOHOL DURANTE TODO EL PROCESO DE RECOLECCIÓN. RECOLECCIÓN: ELIMINAR LA 1RA ORINA DE LA MAÑANA, RECOLECTAR DESDE LA 2DA EN ADELANTE HASTA EL DÍA SIGUIENTE DONDE SE RECOLECTA LA 1RA ORINA. NO ELIMINAR NI BOTAR NINGUNA MUESTRA DE ORINA. ANOTAR FECHA, INICIO Y TERMINO DE LA RECOLECCIÓN.",
+    time: 1,
+    quantity: 1
+  },
+  {
+    id: 159,
+    exam: "rosa de bengala",
+    sample: "suero",
+    method: "aglutinacion",
+    price: 35,
+    tube: "rojo/amarillo",
+    preanalitic: "no requiere ayuno previo",
+    time: 1,
+    quantity: 1
+  },
 ];
 
