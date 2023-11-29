@@ -927,7 +927,7 @@ export const exams = [
   },
   {
     id: 84,
-    exam: "reticulocitos recuento",
+    exam: " recuento",
     sample: "sangre total",
     method: "microscopia manual",
     price: 15,
@@ -1762,7 +1762,7 @@ export const exams = [
     quantity: 1
   },
   {
-    id: 22,
+    id: 160,
     exam: "t3",
     sample: "suero",
     method: "quimioluminiscencia",
