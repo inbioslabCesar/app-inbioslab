@@ -279,7 +279,7 @@ export const exams = [
     exam: "perfil tiroideo(tsh-t4 libre-t3)",
     sample: "suero",
     method: "quimioluminiscencia",
-    price: 100,
+    price: 110,
     tube: "tapa rojo ó amarillo",
     preanalitic: "se sugiere ayuno de 8 hras",
     time: 1,
@@ -301,7 +301,7 @@ export const exams = [
     exam: "	PROLACTINA POOL",
     sample: "suero",
     method: "quimioluminiscencia",
-    price: 60,
+    price: 100,
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HRS. NO EJERCICIOS, EVITAR ESTADOS DE ESTRES. (30 MINUTOS DE REPOSO ANTES DE LA TOMA DE MUESTRA) INCLUYE 03 TOMAS CADA 15 MINUTOS, SALVO OTRA INDICACION DEL MÉDICO TRATANTE.",
     time: 1,
@@ -1513,7 +1513,7 @@ export const exams = [
     exam: "troponina t",
     sample: "suero",
     method: "quimiolumiscencia",
-    price: 40,
+    price: 45,
     tube: "tapa rojo ó amarillo",
     preanalitic: "SE RECOMIENDA AYUNO DE 8 HORAS ANTES DE LA PRUEBA.",
     time: 1,
@@ -1773,4 +1773,3 @@ export const exams = [
     quantity: 1
   },
 ];
-
