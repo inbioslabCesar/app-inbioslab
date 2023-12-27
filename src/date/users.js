@@ -1311,17 +1311,6 @@ export const exams = [
     quantity: 1
   },
   {
-    id: 121,
-    exam: "test de ada",
-    sample: "suero",
-    method: "colorimetrico",
-    price: 55,
-    tube: "tubo rojo /amarillo",
-    preanalitic: "no requiere ayuno previo",
-    time: 1,
-    quantity: 1
-  },
-  {
     id: 122,
     exam: "tiempo de coagulacion y tiempo de sangria",
     sample: "sangre total",
