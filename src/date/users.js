@@ -561,7 +561,7 @@ export const exams = [
     exam: "tolerancia a la glucosa",
     sample: "suero",
     method: "bioquimica automatizada",
-    price: 38,
+    price: 40,
     tube: "tapa rojo ó amarillo",
     preanalitic:
       "MUESTRAS TOMADAS:BASAL 30, 60, 90, 120 MINUTOS. SALVO OTRA INDICACION DEL MEDICO. ADULTOS: 75 GR. glucosa anhidra Y  EMBARAZADAS SÓLO ENTRE 24 A 28 SEMANAS. REVISAR ORDEN MEDICA: 100 GR glucosa anhidra .. DISOLVER EN 250 - 300 ML DE AGUA",
@@ -1739,5 +1739,15 @@ export const exams = [
     time: 1,
     quantity: 1
   },
+  {
+    id: 161,
+    exam: "albumina",
+    sample: "suero",
+    method: "colorimetrico",
+    price: 6,
+    tube: "tapa rojo ó amarillo",
+    preanalitic: "se recomienda ayuno de 8 horas",
+    time: 1,
+    quantity: 1
+  },
 ];
-
