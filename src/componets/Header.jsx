@@ -7,7 +7,7 @@ const Header = () => {
         <nav className="relative w-[90%] mx-auto overflow-hidden max-w-screen-xl h-60 flex items-center justify-between">
           <Link to="/app-inbioslab/" className="w-1/3 max-w-[140px]">
             <img
-              src="/images/inbioslab.svg"
+              src="images/inbioslab.svg"
               alt="logo"
               className="w-full"
             />
