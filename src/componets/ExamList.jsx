@@ -5,6 +5,7 @@ import { useFilters } from "../lib/hooks/useFilters";
 import { useState } from "react";
 import ExamsListPaginate from "./ExamsListPaginate";
 
+
 const ExamList = ({ initialExams, allProducts, setAllProducts, countProducts, setCountProducts, total, setTotal}) => {   
   const { search, ...setFilterFuntions } = useFilters();
   const [page, setPage] = useState(1)

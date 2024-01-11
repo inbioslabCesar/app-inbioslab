@@ -1,32 +1,17 @@
-import { useState } from "react";
-import ExamList from "./componets/ExamList";
+import Cotizacion from "./componets/Cotizacion";
 import Header from "./componets/Header";
-import { exams } from "./date/users";
+import Home from "./componets/Home";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
-  const [allProducts, setAllProducts] = useState([]);
-  const [total, setTotal] = useState(0);
-  const [countProducts, setCountProducts] = useState(0);
-
   return (
     <>
-      <Header
-       allProducts={allProducts}
-       setAllProducts={setAllProducts}
-        total={total}
-        setTotal={setTotal}
-        countProducts={countProducts}
-        setCountProducts={setCountProducts}
-      />
-      <ExamList
-        initialExams={exams}
-        allProducts={allProducts}
-        setAllProducts={setAllProducts}
-        total={total}
-        setTotal={setTotal}
-        countProducts={countProducts}
-        setCountProducts={setCountProducts}
-      />
+      <Routes>
+        <Route path="/app-inbioslab/" element={<Header />}>
+          <Route path="/app-inbioslab/" element={<Home />} />
+          <Route path="/app-inbioslab/cotizacion" element={<Cotizacion />} />
+        </Route>
+      </Routes>
     </>
   );
 }

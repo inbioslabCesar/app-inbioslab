@@ -1750,4 +1750,15 @@ export const exams = [
     time: 1,
     quantity: 1
   },
+  {
+    id: 162,
+    exam: "vitamina d 25-hidroxi-vitamina total (d2+d3)",
+    sample: "suero",
+    method: "quimioluminiscencia ",
+    price: 240,
+    tube: "tapa rojo ó amarillo",
+    preanalitic: "se recomienda ayuno de 8 horas",
+    time: 7,
+    quantity: 1
+  },
 ];
