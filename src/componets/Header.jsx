@@ -8,7 +8,7 @@ const Header = () => {
           <Link to="/app-inbioslab/" className="w-1/3 max-w-[140px]">
             
             <img
-              src="./public/images/inbioslab.svg"
+              src="../public/inbioslab.svg"
               alt="logo"
               className="w-full"
           />
