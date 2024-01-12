@@ -5,18 +5,17 @@ const Header = () => {
   return (
     <div>
         <nav className="relative w-[90%] mx-auto overflow-hidden max-w-screen-xl h-60 flex items-center justify-between">
-          <Link to="/app-inbioslab/" className="w-1/3 max-w-[140px]">
+          <Link to="/app-inbioslab/" className="w-1/3 max-w-[100px] xl:max-w-[140px]">
             
             <img
-              src="./public/inbioslab.svg"
+              src="./public/inbioslab-logo.png"
               alt="logo"
               className="w-full"
           />
-          <a href=""></a>
           </Link>
           <div className="absolute w-[100%] mb-20 ml-25 flex flex-col xl:justify-center xl:flex-row xl:gap-x-10 xl:gap-y-0">
-            <div className="flex flex-col xl:flex-row items-center mt-10 xl:-mt-10 font-bold">
-              <div className="flex items-center">
+            <div className="flex flex-col xl:flex-row items-center mt-10 xl:-mt-10 font-bold text-center">
+              <div className="flex flex-col xl:flex-row items-center">
                 <i className="ri-map-pin-2-fill text-2xl text-sky-400"></i>
                 <div className="flex flex-col xl:flex-row ml-3">
                   <span>Jr. Calleria N°135 (Cental)</span>
