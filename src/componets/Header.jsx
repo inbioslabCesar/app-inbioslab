@@ -6,11 +6,13 @@ const Header = () => {
     <div>
         <nav className="relative w-[90%] mx-auto overflow-hidden max-w-screen-xl h-60 flex items-center justify-between">
           <Link to="/app-inbioslab/" className="w-1/3 max-w-[140px]">
+            
             <img
-              src="images/inbioslab.svg"
+              src="../public/images/inbioslab.svg"
               alt="logo"
               className="w-full"
-            />
+          />
+          <a href=""></a>
           </Link>
           <div className="absolute w-[100%] mb-20 ml-25 flex flex-col xl:justify-center xl:flex-row xl:gap-x-10 xl:gap-y-0">
             <div className="flex flex-col xl:flex-row items-center mt-10 xl:-mt-10 font-bold">

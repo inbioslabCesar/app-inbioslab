@@ -25,7 +25,7 @@ const Section = () => {
             </a>
           </div>
           <div className="hero__img hidden xl:flex max-w-[814px] self-end">
-            <img src="src/images/leo.png" alt="" />
+            <img src="public/images/avatar-ali.png" alt="" />
           </div>
         </div>
       </div>
