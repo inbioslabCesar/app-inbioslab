@@ -5,34 +5,16 @@ import logo from '../images/inbioslab-logo.png'
 const Header = () => {
   return (
     <div>
-        <nav className="relative w-[90%] mx-auto overflow-hidden max-w-screen-xl h-60 flex items-center justify-between">
-          <Link to="/app-inbioslab/" className="w-1/3 max-w-[100px] xl:max-w-[140px]">
+        <nav className="w-[90%] mx-auto overflow-hidden max-w-screen-xl h-40 flex items-center justify-between">
+          <Link to="/app-inbioslab/" className="flex justify-center items-center mb-10  w-1/3 xl:max-w-[140px] ">
             
             <img
               src={logo}
               alt="logo"
-              className="w-full"
+              className="absolute w-full max-w-[140px]"
           />
           </Link>
-          <div className="absolute w-[100%] mb-20 ml-25 flex flex-col xl:justify-center xl:flex-row xl:gap-x-10 xl:gap-y-0">
-            <div className="flex flex-col xl:flex-row items-center mt-10 xl:-mt-10 font-bold text-center">
-              <div className="flex flex-col xl:flex-row items-center">
-                <i className="ri-map-pin-2-fill text-2xl text-sky-400"></i>
-                <div className="flex flex-col xl:flex-row ml-3">
-                  <span>Jr. Calleria N°135 (Cental)</span>
-                  <span className="ml-3">
-                    Jr. Agustin Cauper N°290 (Sede-1)
-                  </span>
-                </div>
-              </div>
-              <div className="flex flex-row justify-center items-center ml-5">
-                <i className="ri-phone-fill text-2xl text-sky-400"></i>
-                <span className="ml-3 text-fuchsia-800">
-                  945241093-945241682(Yape)
-                </span>
-              </div>
-            </div>
-          </div>
+         
           <input type="checkbox" id="menu" className="peer hidden" />
           <label
             htmlFor="menu"
@@ -62,7 +44,26 @@ const Header = () => {
             className="bg-sky-400 text-slate-50 w-max py-3 px-12 mx-4 rounded-full font-bold shadow-xl shadow-blue-950/30 hidden md:block cursor-pointer">
             Cotizar!
           </Link>
-        </nav>
+      </nav>
+      <div className="flex justify-center items-center -mt-16 xl:-mt-5 m-5">
+            <div className="flex flex-col xl:flex-row items-center font-bold text-center">
+              <div className="flex flex-col xl:flex-row items-center">
+                <i className="ri-map-pin-2-fill text-2xl text-sky-400"></i>
+                <div className="flex flex-col xl:flex-row ml-2">
+              <span>Jr. Calleria N°135 (Cental)</span>
+                  <span className="ml-3">
+                    Jr. Agustin Cauper N°290 (Sede-1)
+                  </span>
+                </div>
+              </div>
+              <div className="flex flex-row justify-center items-center ml-2">
+                <i className="ri-phone-fill text-2xl text-sky-400"></i>
+                <span className="ml-1 text-fuchsia-800">
+                  945241093-945241682(Yape)
+                </span>
+              </div>
+            </div>
+          </div>
       <Outlet />
     </div>
   );

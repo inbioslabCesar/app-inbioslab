@@ -1,13 +1,14 @@
-import logoLeo from '../images/leo.png'
-import facebook from '../images/icon-facebook.svg'
-import instagram from '../images/icon-instagram.svg'
-import pinterest from '../images/icon-pinterest.svg'
-import twitter from '../images/icon-twitter.svg'
-import youtube from '../images/icon-youtube.svg'
-import inbioslabBlanco from '../images/inbioslab-blanco.svg'
+import logoLeo from "../images/leo.png";
+import facebook from "../images/icon-facebook.svg";
+import instagram from "../images/icon-instagram.svg";
+import pinterest from "../images/icon-pinterest.svg";
+import twitter from "../images/icon-twitter.svg";
+import youtube from "../images/icon-youtube.svg";
+import inbioslabBlanco from "../images/inbioslab-blanco.svg";
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
-    <div>      
+    <div>
       <section className="hero bg-grey py-12 xl:pt-12 xl:pb-0 overflow-hidden">
         <div className="container mx-auto h-full">
           <div className="flex flex-col xl:flex-row items-center justify-around h-full ">
@@ -117,13 +118,16 @@ const Home = () => {
             <div className="">
               <h2 className="text-3xl">Sede Central</h2>
               <p>Jr. Calleria N° 135 (A media cuadra de la fiscalia)</p>
+
+              <span>Horario: 7:00 am - 7:00 pm</span>
             </div>
             <div className="">
               <h2 className="text-3xl">Sede 1</h2>
               <p>
-                Jr. Agustin Cauper N° 290 (Frente a emergencia Hospital
+                Jr. Agustin Cauper N° 290 (Frente a Emergencia Hospital
                 Regional)
               </p>
+              <span>Horario: 7:00 am - 3:00 pm</span>
             </div>
           </div>
         </section>
@@ -142,8 +146,8 @@ const Home = () => {
             />
           </form>
           <nav className="grid grid-cols-[max-content_max-content] gap-y-4 justify-between text-white w-4/5 [grid-area:navigation] md:w-full">
-            <a href="#">Inicio</a>
-            <a href="#">Precio</a>
+            <Link to="/app-inbioslab/">Inicio</Link>
+            <Link to="/app-inbioslab/cotizacion">Lista de Precios</Link>
             <a href="#">Servicos</a>
             <a href="#">Promociones</a>
             <a href="#">Sobre Nosotros</a>
@@ -162,15 +166,15 @@ const Home = () => {
             <a href="#">
               <img src={twitter} className="w/8" />
             </a>
-            <a href="#">
+            <Link to="#">
               <img src={instagram} className="w/8" />
-            </a>
+            </Link>
           </div>
-          <a href="#" className="[grid-area:logo]">
+          <Link to="/app-inbioslab/" className="[grid-area:logo]">
             <img src={inbioslabBlanco} className="w-40" />
-          </a>
+          </Link>
           <p className="text-dark-grayish-blue text-center [grid-area:copy] md:text-right">
-            Copyright 2020. All Rights Reserved
+            Copyright 2024. All Rights Reserved
           </p>
         </section>
       </footer>
