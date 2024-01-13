@@ -1,4 +1,4 @@
-import logoLeo from '../images/leo.png'
+import logoLeo from '../images/avatar-ali.png'
 const Section = () => {
   return (
     <section className="hero bg-grey py-12 xl:pt-12 xl:pb-0 overflow-hidden">
