@@ -1,5 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
 import "remixicon/fonts/remixicon.css";
+import logo from '../images/inbioslab-logo.png'
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
           <Link to="/app-inbioslab/" className="w-1/3 max-w-[100px] xl:max-w-[140px]">
             
             <img
-              src="./public/inbioslab-logo.png"
+              src={logo}
               alt="logo"
               className="w-full"
           />
