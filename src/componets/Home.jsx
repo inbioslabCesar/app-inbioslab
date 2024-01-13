@@ -1,3 +1,10 @@
+import logoLeo from '../images/leo.png'
+import facebook from '../images/icon-facebook.svg'
+import instagram from '../images/icon-instagram.svg'
+import pinterest from '../images/icon-pinterest.svg'
+import twitter from '../images/icon-twitter.svg'
+import youtube from '../images/icon-youtube.svg'
+import inbioslabBlanco from '../images/inbioslab-blanco.svg'
 const Home = () => {
   return (
     <div>      
@@ -26,7 +33,7 @@ const Home = () => {
               </a>
             </div>
             <div className="hero__img hidden xl:flex max-w-[814px] self-end">
-              <img src="src/images/leo.png" alt="" />
+              <img src={logoLeo} alt="" />
             </div>
           </div>
         </div>
@@ -144,23 +151,23 @@ const Home = () => {
           </nav>
           <div className="flex flex-wrap gap-4 justify-between w-full [grid-area:social-media]">
             <a href="#">
-              <img src="src/images/icon-facebook.svg" className="w/8" />
+              <img src={facebook} className="w/8" />
             </a>
             <a href="#">
-              <img src="src/images/icon-youtube.svg" className="w/8" />
+              <img src={youtube} className="w/8" />
             </a>
             <a href="#">
-              <img src="src/images/icon-pinterest.svg" className="w/8" />
+              <img src={pinterest} className="w/8" />
             </a>
             <a href="#">
-              <img src="src/images/icon-twitter.svg" className="w/8" />
+              <img src={twitter} className="w/8" />
             </a>
             <a href="#">
-              <img src="src/images/icon-instagram.svg" className="w/8" />
+              <img src={instagram} className="w/8" />
             </a>
           </div>
           <a href="#" className="[grid-area:logo]">
-            <img src="src/images/inbioslab-blanco.svg" className="w-40" />
+            <img src={inbioslabBlanco} className="w-40" />
           </a>
           <p className="text-dark-grayish-blue text-center [grid-area:copy] md:text-right">
             Copyright 2020. All Rights Reserved
