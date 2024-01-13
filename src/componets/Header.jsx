@@ -4,7 +4,7 @@ import logo from '../images/inbioslab-logo.png'
 
 const Header = () => {
   return (
-    <div>
+    <div className="">
         <nav className="w-[90%] mx-auto overflow-hidden max-w-screen-xl h-40 flex items-center justify-between">
           <Link to="/app-inbioslab/" className="flex justify-center items-center mb-10  w-1/3 xl:max-w-[140px] ">
             
@@ -35,7 +35,7 @@ const Header = () => {
                 <Link to="#">Sobre Nosotros</Link>
               </li>
               <li>
-                <Link to="#">Contacto</Link>
+                <Link to="#">Servicio a domicilio</Link>
               </li>
             </ul>
           </div>
@@ -50,7 +50,7 @@ const Header = () => {
               <div className="flex flex-col xl:flex-row items-center">
                 <i className="ri-map-pin-2-fill text-2xl text-sky-400"></i>
                 <div className="flex flex-col xl:flex-row ml-2">
-              <span>Jr. Calleria N°135 (Cental)</span>
+              <span>Jr. Calleria N°135 (Central)</span>
                   <span className="ml-3">
                     Jr. Agustin Cauper N°290 (Sede-1)
                   </span>

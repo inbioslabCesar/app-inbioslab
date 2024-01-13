@@ -1,4 +1,4 @@
-import logoLeo from "../images/leo.png";
+import logoLeo from "../images/doc-1.jpg";
 import facebook from "../images/icon-facebook.svg";
 import instagram from "../images/icon-instagram.svg";
 import pinterest from "../images/icon-pinterest.svg";
