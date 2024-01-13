@@ -1,4 +1,4 @@
-import logoLeo from '../images/avatar-ali.png'
+import logoAli from '../images/avatar-ali.png'
 const Section = () => {
   return (
     <section className="hero bg-grey py-12 xl:pt-12 xl:pb-0 overflow-hidden">
@@ -26,7 +26,7 @@ const Section = () => {
             </a>
           </div>
           <div className="hero__img hidden xl:flex max-w-[814px] self-end">
-            <img src={logoLeo} alt="" />
+            <img src={logoAli} alt="" />
           </div>
         </div>
       </div>
