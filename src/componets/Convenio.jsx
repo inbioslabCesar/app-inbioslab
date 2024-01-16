@@ -1,9 +1,9 @@
-import { datas } from "../date/datas";
-import ExamList from "./ExamList";
+import { exams } from "../date/users";
+import ExamListConvenio from "./ExamListConvenio";
 const Convenio = () => {
   return (
     <div>
-      <ExamList initialData={datas} />
+      <ExamListConvenio initialExams={exams} />
     </div>
   );
 };

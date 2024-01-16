@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 import { HOME, LOGOUT } from "../routes/paths";
 
 const ExamList = ({
-  initialData,
+  initialExams,
   allProducts,
   setAllProducts,
   countProducts,
@@ -22,7 +22,7 @@ const ExamList = ({
   const [page, setPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(5);
 
-  const { datas } = getExams(initialData, search, page, itemsPerPage);
+  const { exams } = getExams(initialExams, search, page, itemsPerPage);
 
   return (
     <div>
@@ -39,7 +39,7 @@ const ExamList = ({
           </Link>
 
           <div className="bg-sky-400 text-vary-light-gray block w-max py-3 px-5 mx-4 rounded-full hover:scale-110">                     
-              <Link to={HOME} className="">Inicio</Link>      
+              <Link to={LOGOUT} className="">Cerrar sesión</Link>      
             
           </div>
         </nav>
@@ -62,11 +62,11 @@ const ExamList = ({
         </div>
       </header>
       <div className="wrapper flex flex-col justify-center max-w-lg m-auto mt-20">
-        <h1 className="text-2xl font-bold mb-1">PRECIO PÚBLICO CON UN 10% DE DESCUENTO</h1>
+        <h1 className="text-2xl font-bold mb-1">Cotiza con nosotros</h1>
         <ExamsListFilters search={search} {...setFilterFuntions} />
 
         <ExamsListRows
-          datas={datas}
+          exams={exams}
           allProducts={allProducts}
           setAllProducts={setAllProducts}
           total={total}
@@ -85,10 +85,10 @@ const ExamList = ({
   );
 };
 
-const getExams = (initialdata, search, page, itemsPerPage) => {
-  let examsFiltered = filterExamsByName(initialdata, search);
+const getExams = (initialExams, search, page, itemsPerPage) => {
+  let examsFiltered = filterExamsByName(initialExams, search);
   examsFiltered = paginateExams(examsFiltered, page, itemsPerPage);
-  return { datas: examsFiltered };
+  return { exams: examsFiltered };
 };
 
 export default ExamList;

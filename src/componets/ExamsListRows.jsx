@@ -1,7 +1,7 @@
 import ExamRow from "./ExamRow";
 
 const ExamsListRows = ({
-  datas,
+  exams,
   allProducts,
   setAllProducts,
   countProducts,
@@ -9,12 +9,12 @@ const ExamsListRows = ({
   total,
   setTotal,
 }) => {
-  if (!datas.length) return <p>No hay examenes aun</p>;
+  if (!exams.length) return <p>No hay examenes aun9</p>;
 
-  return datas.map((data) => (
+  return exams.map((exam) => (
     <ExamRow
-      key={data.id}
-      data={data}
+      key={exam.id}
+      exam={exam}
       allProducts={allProducts}
       setAllProducts={setAllProducts}
       total={total}
