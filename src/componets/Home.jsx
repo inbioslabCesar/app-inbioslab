@@ -47,7 +47,7 @@ const Home = () => {
               </li>
               <li>
               <div className="bg-sky-400 text-vary-light-gray block w-max py-3 px-5 rounded-full hover:scale-110 mx-auto md:hidden">                     
-              <Link to={LOGIN} className="">Iniciar sesión</Link>      
+              <Link to={LOGIN} className="">Empresas</Link>      
             
           </div>
               </li>
@@ -56,7 +56,7 @@ const Home = () => {
           <Link
             to={LOGIN}
             className="bg-sky-400 text-slate-50 w-max py-3 px-12 mx-4 rounded-full font-bold shadow-xl shadow-blue-950/30 hidden md:block cursor-pointer">
-            Iniciar Sesíon
+            Empresas
           </Link>
       </nav>
       <div className="flex justify-center items-center -mt-16 xl:-mt-5 m-5">
