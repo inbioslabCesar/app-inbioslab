@@ -8,7 +8,7 @@ import twitter from "../images/icon-twitter.svg";
 import youtube from "../images/icon-youtube.svg";
 import inbioslabBlanco from "../images/inbioslab-blanco.svg";
 import { Link } from "react-router-dom";
-import { HOME, LOGIN } from "../routes/paths";
+import { CONVENIO, HOME, LOGIN } from "../routes/paths";
 const Home = () => {
   return (
     <div>      
@@ -34,7 +34,7 @@ const Home = () => {
                 <Link to={HOME}>Inicio</Link>
               </li>
               <li>
-                <Link to="#">Lista de precio público</Link>
+                <Link to={CONVENIO}>Lista de precio público</Link>
               </li>
               <li>
                 <Link to="#">Promociones</Link>
@@ -217,7 +217,7 @@ const Home = () => {
           </form>
           <nav className="grid grid-cols-[max-content_max-content] gap-y-4 justify-between text-white w-4/5 [grid-area:navigation] md:w-full">
             <Link to={HOME}>Inicio</Link>
-            <Link>Lista de Precios</Link>
+            <Link to={CONVENIO}>Lista de precios público</Link>
             <a href="#">Servicos</a>
             <a href="#">Promociones</a>
             <a href="#">Sobre Nosotros</a>

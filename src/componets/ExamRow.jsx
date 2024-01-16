@@ -4,7 +4,7 @@ import { BsFillCartPlusFill } from "react-icons/bs";
 import { Modal } from "./Modal";
 
 const ExamRow = ({
-  exam,
+  data,
   allProducts,
   setAllProducts,
   countProducts,
@@ -13,31 +13,31 @@ const ExamRow = ({
   setTotal,
 }) => {
   const [showModal, setShowModal] = useState(false);
-  const onAddProducts = (exam) => {
-    if (allProducts.find((item) => item.id === exam.id)) {
+  const onAddProducts = (data) => {
+    if (allProducts.find((item) => item.id === data.id)) {
       const products = allProducts.map((item) =>
-        item.id === exam.id ? { ...item, quantity: item.quantity + 1 } : item
+        item.id === data.id ? { ...item, quantity: item.quantity + 1 } : item
       );
-      setTotal(total + exam.price * exam.quantity);
-      setCountProducts(countProducts + exam.quantity);
+      setTotal(total + data.price * data.quantity);
+      setCountProducts(countProducts + data.quantity);
       return setAllProducts([...products]);
     }
-    setTotal(total + exam.price * exam.quantity);
-    setCountProducts(countProducts + exam.quantity);
-    setAllProducts([...allProducts, exam]);
+    setTotal(total + data.price * data.quantity);
+    setCountProducts(countProducts + data.quantity);
+    setAllProducts([...allProducts, data]);
   };
 
   return (
     <div className="container">
       <div className="flex justify-between items-center border p-3 rounded-lg uppercase font-medium mb-1">
-        <button className="w-5 flex justify-center" onClick={() => onAddProducts(exam)}>
+        <button className="w-5 flex justify-center" onClick={() => onAddProducts(data)}>
           <BsFillCartPlusFill className="text-4xl"/>
         </button>
         <div className="w-1/2 text-sm font-normal">
-          <span>{exam.exam}</span>
+          <span>{data.exam}</span>
         </div>
         <div className="">
-          <span>S/. {exam.price}.00</span>
+          <span>S/. {data.price}.00</span>
         </div>
         <div className="">
           <button
@@ -52,7 +52,7 @@ const ExamRow = ({
         onClose={() => {
           setShowModal(false);
         }}
-        exam={exam}
+        data={data}
       />
     </div>
   );
