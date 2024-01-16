@@ -1,10 +1,10 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link} from "react-router-dom";
 import "remixicon/fonts/remixicon.css";
 import logo from '../images/inbioslab-logo.png'
 
 const Header = () => {
   return (
-    <div className="">
+    <header>
         <nav className="w-[90%] mx-auto overflow-hidden max-w-screen-xl h-40 flex items-center justify-between">
           <Link to="/app-inbioslab/" className="flex justify-center items-center mb-10  w-1/3 xl:max-w-[140px] ">
             
@@ -23,7 +23,7 @@ const Header = () => {
           <div className="fixed inset-0 bg-gradient-to-b from-white/70 to-dark-blue/70 translate-x-full peer-checked:translate-x-0 transition-transform z-40 xl:static xl:bg-none xl:translate-x-0">
             <ul className="absolute inset-x-0 top-24 p-12 bg-white w-[90%] mx-auto rounded-md h-max text-center grid gap-6 font-bold text-dark-blue shadow-2xl xl:w-max xl:bg-transparent xl:p-0 xl:grid-flow-col xl:static">
               <li>
-                <Link to="/app-inbioslab/">Inicio</Link>
+                <Link to="/app-inbioslab/home">Inicio</Link>
               </li>
               <li>
                 <Link to="/app-inbioslab/cotizacion">Lista de Precios</Link>
@@ -64,9 +64,6 @@ const Header = () => {
               </div>
             </div>
           </div>
-      <Outlet />
-    </div>
+    </header>
   );
 };
-
-export default Header;
