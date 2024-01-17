@@ -1,5 +1,3 @@
-
-import { datas } from "../date/datas";
 import { exams } from "../date/users";
 import ExamList from "./ExamList";
 

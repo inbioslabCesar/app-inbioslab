@@ -1,5 +1,5 @@
 import "remixicon/fonts/remixicon.css";
-import logo from '../images/inbioslab-logo.png'
+import logo from "../images/inbioslab-logo.png";
 import logoLeo from "../images/logo-leo.jpeg";
 import facebook from "../images/icon-facebook.svg";
 import instagram from "../images/icon-instagram.svg";
@@ -8,21 +8,23 @@ import twitter from "../images/icon-twitter.svg";
 import youtube from "../images/icon-youtube.svg";
 import inbioslabBlanco from "../images/inbioslab-blanco.svg";
 import { Link } from "react-router-dom";
-import {HOME, LOGIN } from "../routes/paths";
+import { HOME, LOGIN } from "../routes/paths";
+import ReactWhatsapp from "react-whatsapp";
 const Home = () => {
   return (
-    <div>      
+    <div>
       <header>
         <nav className="w-[90%] mx-auto overflow-hidden max-w-screen-xl h-40 flex items-center justify-between">
-          <Link to={HOME} className="flex justify-center items-center mb-10  w-1/3 xl:max-w-[140px] ">
-            
+          <Link
+            to={HOME}
+            className="flex justify-center items-center mb-10  w-1/3 xl:max-w-[140px] ">
             <img
               src={logo}
               alt="logo"
               className="absolute w-full max-w-[140px]"
-          />
+            />
           </Link>
-         
+
           <input type="checkbox" id="menu" className="peer hidden" />
           <label
             htmlFor="menu"
@@ -46,10 +48,11 @@ const Home = () => {
                 <Link to="#">Servicio a domicilio</Link>
               </li>
               <li>
-              <div className="bg-sky-400 text-vary-light-gray block w-max py-3 px-5 rounded-full hover:scale-110 mx-auto md:hidden">                     
-              <Link to={LOGIN} className="">Empresas</Link>      
-            
-          </div>
+                <div className="bg-sky-400 text-vary-light-gray block w-max py-3 px-5 rounded-full hover:scale-110 mx-auto md:hidden">
+                  <Link to={LOGIN} className="">
+                    Empresas
+                  </Link>
+                </div>
               </li>
             </ul>
           </div>
@@ -58,27 +61,25 @@ const Home = () => {
             className="bg-sky-400 text-slate-50 w-max py-3 px-12 mx-4 rounded-full font-bold shadow-xl shadow-blue-950/30 hidden md:block cursor-pointer">
             Empresas
           </Link>
-      </nav>
-      <div className="flex justify-center items-center -mt-16 xl:-mt-5 m-5">
-            <div className="flex flex-col xl:flex-row items-center font-bold text-center">
-              <div className="flex flex-col xl:flex-row items-center">
-                <i className="ri-map-pin-2-fill text-2xl text-sky-400"></i>
-                <div className="flex flex-col xl:flex-row ml-2">
-              <span>Jr. Calleria N°135 (Central)</span>
-                  <span className="ml-3">
-                    Jr. Agustin Cauper N°290 (Sede-1)
-                  </span>
-                </div>
-              </div>
-              <div className="flex flex-row justify-center items-center ml-2">
-                <i className="ri-phone-fill text-2xl text-sky-400"></i>
-                <span className="ml-1 text-fuchsia-800">
-                  945241093-945241682(Yape)
-                </span>
+        </nav>
+        <div className="flex justify-center items-center -mt-16 xl:-mt-5 m-5">
+          <div className="flex flex-col xl:flex-row items-center font-bold text-center">
+            <div className="flex flex-col xl:flex-row items-center">
+              <i className="ri-map-pin-2-fill text-2xl text-sky-400"></i>
+              <div className="flex flex-col xl:flex-row ml-2">
+                <span>Jr. Calleria N°135 (Central)</span>
+                <span className="ml-3">Jr. Agustin Cauper N°290 (Sede-1)</span>
               </div>
             </div>
+            <div className="flex flex-row justify-center items-center ml-2">
+              <i className="ri-phone-fill text-2xl text-sky-400"></i>
+              <span className="ml-1 text-fuchsia-800">
+                945241093-945241682(Yape)
+              </span>
+            </div>
           </div>
-    </header>
+        </div>
+      </header>
       <section className="hero bg-grey py-12 xl:pt-12 xl:pb-0 overflow-hidden">
         <div className="container mx-auto h-full">
           <div className="flex flex-col xl:flex-row items-center justify-around h-full ">
@@ -97,11 +98,13 @@ const Home = () => {
                 atención, calidez, oportunidad y confiabilidad en nuestros
                 resultados.
               </p>
-              <a
-                href="#"
-                className="bg-sky-400 text-slate-50 w-max py-3 px-12 mx-4 rounded-full font-bold shadow-xl shadow-blue-950/30 lg:block">
-                Contáctanos
-              </a>
+              <ReactWhatsapp number="945241093">
+                <a
+                  href="#"
+                  className="bg-sky-400 text-slate-50 w-max py-3 px-12 mx-4 rounded-full font-bold shadow-xl shadow-blue-950/30 lg:block">
+                  Contáctanos
+                </a>
+              </ReactWhatsapp>
             </div>
             <div className="hero__img hidden xl:flex max-w-[814px] self-end">
               <img src={logoLeo} alt="" />

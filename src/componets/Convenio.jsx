@@ -1,9 +1,7 @@
-import { exams } from "../date/users";
-import ExamListConvenio from "./ExamListConvenio";
 const Convenio = () => {
   return (
     <div>
-      <ExamListConvenio initialExams={exams} />
+      convenio
     </div>
   );
 };
