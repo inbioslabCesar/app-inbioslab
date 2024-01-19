@@ -57,21 +57,15 @@ const ExamListPublic = ({
             </div>
             <div className="flex flex-row justify-center items-center ml-2">
               <i className="ri-phone-fill text-2xl text-sky-400"></i>
-              <span className="ml-1 text-fuchsia-800">
-                945241093-945241682
-                          </span>
-                          <img
-              src={yape}
-              alt="yape"
-              className="w-10 h-10 m-1"
-            />
+              <span className="ml-1 text-fuchsia-800">945241093-945241682</span>
+              <img src={yape} alt="yape" className="w-10 h-10 m-1" />
             </div>
           </div>
         </div>
       </header>
-      <div className="wrapper flex flex-col justify-center max-w-lg m-auto mt-10">
+      <div className="wrapper flex flex-col justify-center max-w-lg m-auto p-5">
         <div className="flex justify-center">
-          <ButtonWhatsApp/>
+          <ButtonWhatsApp />
         </div>
         <h1 className="text-2xl font-bold mb-1 mt-10">
           Cotiza con nosotros y accede a un 10% de descuento!!
