@@ -7,10 +7,11 @@ import ExamsListPaginate from "./ExamsListPaginate";
 import "remixicon/fonts/remixicon.css";
 import logo from "../images/inbioslab-logo.png";
 import { Link } from "react-router-dom";
-import {LOGOUT } from "../routes/paths";
+import { HOME } from "../routes/paths";
+import ButtonWhatsApp from "./ButtonWhatsApp";
 import yape from "../images/yape.png";
 
-const ExamList = ({
+const ExamListPublic = ({
   initialExams,
   allProducts,
   setAllProducts,
@@ -30,7 +31,7 @@ const ExamList = ({
       <header>
         <nav className="w-[90%] mx-auto overflow-hidden max-w-screen-xl h-40 flex items-center justify-between">
           <Link
-            to={LOGOUT}
+            to={HOME}
             className="flex justify-center items-center mb-10  w-1/3 xl:max-w-[140px] ">
             <img
               src={logo}
@@ -39,9 +40,10 @@ const ExamList = ({
             />
           </Link>
 
-          <div className="bg-sky-400 text-vary-light-gray block w-max py-3 px-5 mx-4 rounded-full hover:scale-110">                     
-              <Link to={LOGOUT} className="">Cerrar sesión</Link>      
-            
+          <div className="bg-sky-400 text-vary-light-gray block w-max py-3 px-5 mx-4 rounded-full hover:scale-110">
+            <Link to={HOME} className="">
+              Inicio
+            </Link>
           </div>
         </nav>
         <div className="flex justify-center items-center -mt-16 xl:-mt-5 m-5">
@@ -57,8 +59,8 @@ const ExamList = ({
               <i className="ri-phone-fill text-2xl text-sky-400"></i>
               <span className="ml-1 text-fuchsia-800">
                 945241093-945241682
-              </span>
-              <img
+                          </span>
+                          <img
               src={yape}
               alt="yape"
               className="w-10 h-10 m-1"
@@ -67,8 +69,13 @@ const ExamList = ({
           </div>
         </div>
       </header>
-      <div className="wrapper flex flex-col justify-center max-w-lg m-auto mt-20">
-        <h1 className="text-2xl font-bold mb-2">LISTA DE PRECIO CONVENIO</h1>
+      <div className="wrapper flex flex-col justify-center max-w-lg m-auto mt-10">
+        <div className="flex justify-center">
+          <ButtonWhatsApp/>
+        </div>
+        <h1 className="text-2xl font-bold mb-1 mt-10">
+          Cotiza con nosotros y accede a un 10% de descuento!!
+        </h1>
         <ExamsListFilters search={search} {...setFilterFuntions} />
 
         <ExamsListRows
@@ -97,4 +104,4 @@ const getExams = (initialExams, search, page, itemsPerPage) => {
   return { exams: examsFiltered };
 };
 
-export default ExamList;
+export default ExamListPublic;

@@ -1,10 +1,10 @@
 import { datas } from "../date/datas"
-import ExamList from "./ExamList"
+import ExamListPublic from "./ExamListPublic"
 
 const ExamPublic = () => {
   return (
     <div>
-      <ExamList initialExams={datas}/>
+      <ExamListPublic initialExams={datas}/>
     </div>
   )
 }

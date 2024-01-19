@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
-import { COTIZACION, HOME, LOGOUT } from "../routes/paths";
+import { COTIZACION, LOGOUT} from "../routes/paths";
 import "remixicon/fonts/remixicon.css";
 import logo from "../images/inbioslab-logo.png";
+import yape from "../images/yape.png";
 
 const Private = () => {
   return (
@@ -9,7 +10,7 @@ const Private = () => {
       <header>
         <nav className="w-[90%] mx-auto overflow-hidden max-w-screen-xl h-40 flex items-center justify-between">
           <Link
-            to={HOME}
+            to={LOGOUT}
             className="flex justify-center items-center mb-10  w-1/3 xl:max-w-[140px] ">
             <img
               src={logo}
@@ -35,8 +36,13 @@ const Private = () => {
             <div className="flex flex-row justify-center items-center ml-2">
               <i className="ri-phone-fill text-2xl text-sky-400"></i>
               <span className="ml-1 text-fuchsia-800">
-                945241093-945241682(Yape)
+                945241093-945241682
               </span>
+              <img
+              src={yape}
+              alt="yape"
+              className="w-10 h-10 m-1"
+            />
             </div>
           </div>
         </div>

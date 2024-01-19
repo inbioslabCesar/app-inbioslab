@@ -1,5 +1,6 @@
 export const HOME = '/app-inbioslab/'
 export const LOGIN = '/app-inbioslab/login'
+export const PUBLICO = '/app-inbioslab/publico'
 export const PRIVATE = '/app-inbioslab/private'
 export const COTIZACION = '/app-inbioslab/private/cotizacion'
 export const LOGOUT = '/app-inbioslab/private/logout'

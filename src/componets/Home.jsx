@@ -6,10 +6,11 @@ import instagram from "../images/icon-instagram.svg";
 import pinterest from "../images/icon-pinterest.svg";
 import twitter from "../images/icon-twitter.svg";
 import youtube from "../images/icon-youtube.svg";
+import yape from "../images/yape.png";
 import inbioslabBlanco from "../images/inbioslab-blanco.svg";
 import { Link } from "react-router-dom";
-import { HOME, LOGIN } from "../routes/paths";
-import ReactWhatsapp from "react-whatsapp";
+import { HOME, LOGIN, PUBLICO } from "../routes/paths";
+import ButtonWhatsApp from "./ButtonWhatsApp";
 const Home = () => {
   return (
     <div>
@@ -36,7 +37,7 @@ const Home = () => {
                 <Link to={HOME}>Inicio</Link>
               </li>
               <li>
-                <Link>Lista de precio público</Link>
+                <Link to={PUBLICO}>Lista de precio público</Link>
               </li>
               <li>
                 <Link to="#">Promociones</Link>
@@ -74,8 +75,13 @@ const Home = () => {
             <div className="flex flex-row justify-center items-center ml-2">
               <i className="ri-phone-fill text-2xl text-sky-400"></i>
               <span className="ml-1 text-fuchsia-800">
-                945241093-945241682(Yape)
+                945241093-945241682
               </span>
+              <img
+              src={yape}
+              alt="yape"
+              className="w-10 h-10 m-1"
+            />
             </div>
           </div>
         </div>
@@ -98,14 +104,7 @@ const Home = () => {
                 atención, calidez, oportunidad y confiabilidad en nuestros
                 resultados.
               </p>
-              <ReactWhatsapp number="945241093">
-                <a
-                  href="#"
-                  className="bg-sky-400 text-slate-50 w-max py-3 px-12 mx-4 rounded-full font-bold shadow-xl shadow-blue-950/30 lg:block">
-                  <i className="ri-whatsapp-line text-green-500 bg-white rounded-full text-lg mr-2 p-1"></i>
-                  Contáctanos
-                </a>
-              </ReactWhatsapp>
+              <ButtonWhatsApp/>
             </div>
             <div className="hero__img hidden xl:flex max-w-[814px] self-end">
               <img src={logoLeo} alt="" />
