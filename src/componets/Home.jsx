@@ -69,7 +69,6 @@ const Home = () => {
               <i className="ri-map-pin-2-fill text-2xl text-sky-400"></i>
               <div className="flex flex-col xl:flex-row ml-2">
                 <span>Jr. Calleria N°135 (Central)</span>
-                <span className="ml-3">Jr. Agustin Cauper N°290 (Sede-1)</span>
               </div>
             </div>
             <div className="flex flex-row justify-center items-center ml-2">
