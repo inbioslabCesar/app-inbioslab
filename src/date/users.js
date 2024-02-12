@@ -1,4 +1,3 @@
-pap
 export const exams = [
   {
     id: 1,
