@@ -193,14 +193,6 @@ const Home = () => {
 
               <span>Horario: 7:00 am - 7:00 pm</span>
             </div>
-            <div className="">
-              <h2 className="text-3xl">Sede 1</h2>
-              <p>
-                Jr. Agustin Cauper N° 290 (Frente a Emergencia Hospital
-                Regional)
-              </p>
-              <span>Horario: 7:00 am - 3:00 pm</span>
-            </div>
           </div>
         </section>
       </main>
