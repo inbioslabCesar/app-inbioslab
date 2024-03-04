@@ -74,7 +74,7 @@ const Home = () => {
             <div className="flex flex-row justify-center items-center ml-2">
               <i className="ri-phone-fill text-2xl text-sky-400"></i>
               <span className="ml-1 text-fuchsia-800">
-                945241093-945241682
+                945241093
               </span>
               <img
               src={yape}
@@ -88,7 +88,7 @@ const Home = () => {
       <section className="hero bg-grey py-12 xl:pt-12 xl:pb-0 overflow-hidden">
         <div className="container mx-auto h-full">
           <div className="flex flex-col xl:flex-row items-center justify-around h-full ">
-            <div className="hero__tetxt xl:w-[48%] text-center xl:text-left">
+            <div className="xl:w-[48%] text-center xl:text-left">
               <div className="flex items-center bg-white py-[10px] px-[20px] w-max gap-x-2 mb-[26px] rounded-full mx-auto">
                 <i className="ri-heart-pulse-line text-2xl text-sky-400"></i>
                 <div className=" uppercase text-base font-medium text-[#9ab4b7] tracking-[8px]">
@@ -105,7 +105,7 @@ const Home = () => {
               </p>
               <ButtonWhatsApp/>
             </div>
-            <div className="hero__img hidden xl:flex max-w-[814px] self-end">
+            <div className="hidden xl:flex max-w-[814px] self-end">
               <img src={logoLeo} alt="" />
             </div>
           </div>
